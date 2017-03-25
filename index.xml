@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lijun Zhu on Lijun Zhu</title>
+    <link>https://lijunzh.github.io/index.xml</link>
+    <description>Recent content in Lijun Zhu on Lijun Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Lijun Zhu</copyright>
+    <lastBuildDate>Fri, 24 Mar 2017 07:29:14 -0400</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Weighted Random Sampling in Seismic Event Detection/Location (WRASED): Applications to Local, Regional, and Global Seismic Networks</title>
+      <link>https://lijunzh.github.io/talk/ratec_ssa2017/</link>
+      <pubDate>Wed, 19 Apr 2017 16:45:00 -0600</pubDate>
+      
+      <guid>https://lijunzh.github.io/talk/ratec_ssa2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weighted Random Sampling in Seismic Event Detection/Location (WRASED): Applications to Local, Regional, and Global Seismic Networks</title>
+      <link>https://lijunzh.github.io/publication/ratec_ssa2017/</link>
+      <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://lijunzh.github.io/publication/ratec_ssa2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RANSAC-based Arrival Time Event Clustering (RATEC)</title>
+      <link>https://lijunzh.github.io/project/random_sampling/</link>
+      <pubDate>Fri, 24 Mar 2017 16:17:13 -0400</pubDate>
+      
+      <guid>https://lijunzh.github.io/project/random_sampling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A multi-channel approach for automatic microseismic event localization using RANSAC-based arrival time event clustering (RATEC)</title>
+      <link>https://lijunzh.github.io/publication/ratec_gp/</link>
+      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://lijunzh.github.io/publication/ratec_gp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microseismic events enhancement and detection in sensor arrays using autocorrelation based filtering</title>
+      <link>https://lijunzh.github.io/publication/autocorr_gp/</link>
+      <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://lijunzh.github.io/publication/autocorr_gp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An automatic arrival time picking method based on RANSAC curve fitting</title>
+      <link>https://lijunzh.github.io/talk/ransac_eage2016/</link>
+      <pubDate>Thu, 02 Jun 2016 09:20:00 +0100</pubDate>
+      
+      <guid>https://lijunzh.github.io/talk/ransac_eage2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An automatic arrival time picking method based on RANSAC curve fitting</title>
+      <link>https://lijunzh.github.io/publication/ransac_eage2016/</link>
+      <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://lijunzh.github.io/publication/ransac_eage2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

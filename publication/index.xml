@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Lijun Zhu</title>
+    <link>https://lijunzh.github.io/publication/index.xml</link>
+    <description>Recent content in Publications on Lijun Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Lijun Zhu</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Weighted Random Sampling in Seismic Event Detection/Location (WRASED): Applications to Local, Regional, and Global Seismic Networks</title>
+      <link>https://lijunzh.github.io/publication/ratec_ssa2017/</link>
+      <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://lijunzh.github.io/publication/ratec_ssa2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A multi-channel approach for automatic microseismic event localization using RANSAC-based arrival time event clustering (RATEC)</title>
+      <link>https://lijunzh.github.io/publication/ratec_gp/</link>
+      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://lijunzh.github.io/publication/ratec_gp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microseismic events enhancement and detection in sensor arrays using autocorrelation based filtering</title>
+      <link>https://lijunzh.github.io/publication/autocorr_gp/</link>
+      <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://lijunzh.github.io/publication/autocorr_gp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An automatic arrival time picking method based on RANSAC curve fitting</title>
+      <link>https://lijunzh.github.io/publication/ransac_eage2016/</link>
+      <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://lijunzh.github.io/publication/ransac_eage2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microseismic events enhancement in sensor arrays using autocorrelation based filtering</title>
+      <link>https://lijunzh.github.io/publication/autocorr_eage2016/</link>
+      <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://lijunzh.github.io/publication/autocorr_eage2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Full waveform microseismic inversion using differential evolution algorithm</title>
+      <link>https://lijunzh.github.io/publication/full_waveform_de_globalsip2015/</link>
+      <pubDate>Mon, 14 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://lijunzh.github.io/publication/full_waveform_de_globalsip2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D numerical modeling of parametric speaker using finite-difference time-domain</title>
+      <link>https://lijunzh.github.io/publication/parametric_speaker_icassp2015/</link>
+      <pubDate>Sun, 19 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://lijunzh.github.io/publication/parametric_speaker_icassp2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

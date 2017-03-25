@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on Lijun Zhu</title>
+    <link>https://lijunzh.github.io/talk/index.xml</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Lijun Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Lijun Zhu</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Weighted Random Sampling in Seismic Event Detection/Location (WRASED): Applications to Local, Regional, and Global Seismic Networks</title>
+      <link>https://lijunzh.github.io/talk/ratec_ssa2017/</link>
+      <pubDate>Wed, 19 Apr 2017 16:45:00 -0600</pubDate>
+      
+      <guid>https://lijunzh.github.io/talk/ratec_ssa2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An automatic arrival time picking method based on RANSAC curve fitting</title>
+      <link>https://lijunzh.github.io/talk/ransac_eage2016/</link>
+      <pubDate>Thu, 02 Jun 2016 09:20:00 +0100</pubDate>
+      
+      <guid>https://lijunzh.github.io/talk/ransac_eage2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Full waveform microseismic inversion using differential evolution algorithm</title>
+      <link>https://lijunzh.github.io/talk/de_globalsip2015/</link>
+      <pubDate>Tue, 15 Dec 2015 11:40:00 -0500</pubDate>
+      
+      <guid>https://lijunzh.github.io/talk/de_globalsip2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
