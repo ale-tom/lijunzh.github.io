@@ -10,6 +10,34 @@
     <atom:link href="/tags/website/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Hosting GitHub Repo on Netlify</title>
+      <link>https://lijunzh.github.io/post/host-netlify/</link>
+      <pubDate>Tue, 28 Mar 2017 18:23:05 -0400</pubDate>
+      
+      <guid>https://lijunzh.github.io/post/host-netlify/</guid>
+      <description>&lt;p&gt;After &lt;a href=&#34;https://lijunzh.github.io/post/start-website-hugo/&#34; target=&#34;_blank&#34;&gt;posting&lt;/a&gt; about create and hosting personal website using Hugo + GitHub Page, I couldn&amp;rsquo;t get off the fact that my custom domain does not have HTTPS support.
+Finally, I decided to figure it out.&lt;/p&gt;
+
+&lt;p&gt;The first &lt;a href=&#34;https://lijunzh.github.io/post/start-website-hugo/#acquire-a-custom-domain&#34; target=&#34;_blank&#34;&gt;partial workaround&lt;/a&gt; I found was based on &lt;a href=&#34;https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/&#34; target=&#34;_blank&#34;&gt;CloudFlare&lt;/a&gt;.
+Basically, it replace DNS server by this CloudFlare which can add a certificate to all traffic going through it.
+However, there is no guarantee for the traffic between GitHub and CloudFlare which makes it less secure.
+Even more importantly, some browser will mark it as insecure (Chrome does, Firefox and Safari was OK) which repels people from reading my website.&lt;/p&gt;
+
+&lt;p&gt;After trying different ways to configure CloudFlare, I finally give up and decide not to let GitHub to host my site.
+However, I still want the convenience of deploying my site through git.
+This &lt;a href=&#34;https://www.netlify.com/&#34; target=&#34;_blank&#34;&gt;Netlify&lt;/a&gt; came to my attention when I was reading &lt;a href=&#34;https://www.staticgen.com/&#34; target=&#34;_blank&#34;&gt;StaticGen&lt;/a&gt; for comparing different static site generators.
+Although, I don&amp;rsquo;t like the way it work with Hugo by default which add another layer of JavaScript using &lt;a href=&#34;https://github.com/netlify/victor-hugo&#34; target=&#34;_blank&#34;&gt;Victor Hugo&lt;/a&gt;, it does offer hosing the raw HTML+CSS static site with HTTPS.
+More importantly, it connects with GitHub and retrieve repo info automatically for me.
+I can still use the lijunzh.github.io repo and simply switch the host from github.io to netlify.com.
+You can check out my configure on Netlify below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lijunzh.github.io/img/post/netlify-config.png&#34; alt=&#34;netlify-config&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;By the way, all these takes is a &lt;a href=&#34;https://www.netlify.com/tags/pricing/&#34; target=&#34;_blank&#34;&gt;free netlify plan&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Start A Personal Website using Hugo (with customized domain and GitHub free hosting)</title>
       <link>https://lijunzh.github.io/post/start-website-hugo/</link>
       <pubDate>Mon, 27 Mar 2017 11:14:35 -0400</pubDate>

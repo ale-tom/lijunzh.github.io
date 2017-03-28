@@ -34,11 +34,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://lijunzh.github.io/post/screen-record-audio/">
+  <link rel="canonical" href="https://lijunzh.github.io/post/host-netlify/">
 
   
 
-  <title>Record Screen on Mac with Internal Audio | Lijun Zhu</title>
+  <title>Hosting GitHub Repo on Netlify | Lijun Zhu</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -148,13 +148,13 @@
   
 
   <div class="article-container">
-    <h1 itemprop="name">Record Screen on Mac with Internal Audio</h1>
+    <h1 itemprop="name">Hosting GitHub Repo on Netlify</h1>
     
 
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="2017-03-28 12:05:29 -0400 EDT" itemprop="datePublished">
+    <time datetime="2017-03-28 18:23:05 -0400 EDT" itemprop="datePublished">
       Tue, Mar 28, 2017
     </time>
   </span>
@@ -167,7 +167,7 @@
   <span class="article-tags">
     <i class="fa fa-tags"></i>
     
-    <a href="/tags/utilities">utilities</a
+    <a href="/tags/website">website</a
     >
     
   </span>
@@ -180,35 +180,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2flijunzh.github.io%2fpost%2fscreen-record-audio%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2flijunzh.github.io%2fpost%2fhost-netlify%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Record%20Screen%20on%20Mac%20with%20Internal%20Audio&amp;url=https%3a%2f%2flijunzh.github.io%2fpost%2fscreen-record-audio%2f"
+         href="https://twitter.com/intent/tweet?text=Hosting%20GitHub%20Repo%20on%20Netlify&amp;url=https%3a%2f%2flijunzh.github.io%2fpost%2fhost-netlify%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2flijunzh.github.io%2fpost%2fscreen-record-audio%2f&amp;title=Record%20Screen%20on%20Mac%20with%20Internal%20Audio"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2flijunzh.github.io%2fpost%2fhost-netlify%2f&amp;title=Hosting%20GitHub%20Repo%20on%20Netlify"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2flijunzh.github.io%2fpost%2fscreen-record-audio%2f&amp;title=Record%20Screen%20on%20Mac%20with%20Internal%20Audio"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2flijunzh.github.io%2fpost%2fhost-netlify%2f&amp;title=Hosting%20GitHub%20Repo%20on%20Netlify"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Record%20Screen%20on%20Mac%20with%20Internal%20Audio&amp;body=https%3a%2f%2flijunzh.github.io%2fpost%2fscreen-record-audio%2f">
+         href="mailto:?subject=Hosting%20GitHub%20Repo%20on%20Netlify&amp;body=https%3a%2f%2flijunzh.github.io%2fpost%2fhost-netlify%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -221,58 +221,25 @@
 </div>
 
     <div class="article-style" itemprop="articleBody">
-      
+      <p>After <a href="https://lijunzh.github.io/post/start-website-hugo/" target="_blank">posting</a> about create and hosting personal website using Hugo + GitHub Page, I couldn&rsquo;t get off the fact that my custom domain does not have HTTPS support.
+Finally, I decided to figure it out.</p>
 
-<h2 id="motivation">Motivation</h2>
+<p>The first <a href="https://lijunzh.github.io/post/start-website-hugo/#acquire-a-custom-domain" target="_blank">partial workaround</a> I found was based on <a href="https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/" target="_blank">CloudFlare</a>.
+Basically, it replace DNS server by this CloudFlare which can add a certificate to all traffic going through it.
+However, there is no guarantee for the traffic between GitHub and CloudFlare which makes it less secure.
+Even more importantly, some browser will mark it as insecure (Chrome does, Firefox and Safari was OK) which repels people from reading my website.</p>
 
-<p>Recently, I was asked to record some online video for my friend.
-The default <a href="https://support.apple.com/kb/ph5882?locale=en_US" target="_blank">QuickTime</a> screen recorder only supports image but not audio due to Mac&rsquo;s <a href="https://developer.apple.com/library/content/documentation/Security/Conceptual/System_Integrity_Protection_Guide/KernelExtensions/KernelExtensions.html" target="_blank">System Integrity Protection</a>.
-To keep my system as clean as possible, I prefer not to install too many apps.
-After a quick Google search, I came across the <a href="https://github.com/mattingalls/Soundflower" target="_blank">Soundflower</a> which builds a kernel extension installed under &ldquo;/Library/Extensions/&rdquo;.</p>
+<p>After trying different ways to configure CloudFlare, I finally give up and decide not to let GitHub to host my site.
+However, I still want the convenience of deploying my site through git.
+This <a href="https://www.netlify.com/" target="_blank">Netlify</a> came to my attention when I was reading <a href="https://www.staticgen.com/" target="_blank">StaticGen</a> for comparing different static site generators.
+Although, I don&rsquo;t like the way it work with Hugo by default which add another layer of JavaScript using <a href="https://github.com/netlify/victor-hugo" target="_blank">Victor Hugo</a>, it does offer hosing the raw HTML+CSS static site with HTTPS.
+More importantly, it connects with GitHub and retrieve repo info automatically for me.
+I can still use the lijunzh.github.io repo and simply switch the host from github.io to netlify.com.
+You can check out my configure on Netlify below:</p>
 
-<h2 id="download-and-install-soundflower-https-github-com-mattingalls-soundflower">Download and install <a href="https://github.com/mattingalls/Soundflower" target="_blank">Soundflower</a></h2>
+<p><img src="/img/post/netlify-config.png" alt="netlify-config" /></p>
 
-<p>You can easily download the <a href="https://github.com/mattingalls/Soundflower/releases/tag/2.0b2" target="_blank">latest release</a> on GitHub.
-Installation is quite simple through dmg package but you need the administrative right.
-Once installed, you should see two additional devices under &ldquo;Audio MIDI Setup&rdquo; menu.</p>
-
-
-<figure >
-    
-        <img src="/img/post/audio-midi.png" />
-    
-    
-    <figcaption>
-        <h4>Audio MIDI Setup after installing Soundflower.</h4>
-        
-    </figcaption>
-    
-</figure>
-
-
-<h2 id="record-with-quicktime">Record with QuickTime</h2>
-
-<p>The steps of recording are listed below:</p>
-
-<ul>
-<li><p>Change system audio output to &ldquo;Soundflower (2ch)&rdquo;
-<img src="/img/post/system-audio-output.png" alt="change system audo output" /></p></li>
-
-<li><p>Start screen recording in QuickTime
-<img src="/img/post/quicktime-screen-record.png" alt="start record screen in QuickTime" /></p></li>
-
-<li><p>Change audio input to &ldquo;Soundflower (2ch)&rdquo;
-<img src="/img/post/quicktime-audio-input.png" alt="change audio innput" /></p></li>
-</ul>
-
-<h2 id="multi-ouput">Multi-Ouput</h2>
-
-<p>Using the previous method, there will be no aduio output to the system speakers which can be inconvenient some time.
-By adding a &ldquo;Multi-Output&rdquo; device in &ldquo;Audio MIDI Setup&rdquo; as shwon below, you can have both the internal speaker and recording audio output working at the same time.</p>
-
-<p><img src="/img/post/multi-output.png" alt="multi-output" /></p>
-
-<p>Remember to select the Multi-Ouput device in the system audio output before you start to record.</p>
+<p>By the way, all these takes is a <a href="https://www.netlify.com/tags/pricing/" target="_blank">free netlify plan</a>.</p>
 
     </div>
   </div>
@@ -283,13 +250,10 @@ By adding a &ldquo;Multi-Output&rdquo; device in &ldquo;Audio MIDI Setup&rdquo; 
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://lijunzh.github.io/post/start-website-hugo/"><span
-      aria-hidden="true">&larr;</span> Start A Personal Website using Hugo (with customized domain and GitHub free hosting)</a></li>
+    <li class="previous"><a href="https://lijunzh.github.io/post/screen-record-audio/"><span
+      aria-hidden="true">&larr;</span> Record Screen on Mac with Internal Audio</a></li>
     
 
-    
-    <li class="next"><a href="https://lijunzh.github.io/post/host-netlify/">Hosting GitHub Repo on Netlify <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
@@ -303,9 +267,9 @@ By adding a &ldquo;Multi-Output&rdquo; device in &ldquo;Audio MIDI Setup&rdquo; 
     <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'lijunzhu-info';
-    var disqus_identifier = 'https:\/\/lijunzh.github.io\/post\/screen-record-audio\/';
-    var disqus_title = 'Record Screen on Mac with Internal Audio';
-    var disqus_url = 'https:\/\/lijunzh.github.io\/post\/screen-record-audio\/';
+    var disqus_identifier = 'https:\/\/lijunzh.github.io\/post\/host-netlify\/';
+    var disqus_title = 'Hosting GitHub Repo on Netlify';
+    var disqus_url = 'https:\/\/lijunzh.github.io\/post\/host-netlify\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
