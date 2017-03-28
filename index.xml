@@ -12,64 +12,318 @@
     
     <item>
       <title>Weighted Random Sampling in Seismic Event Detection/Location (WRASED): Applications to Local, Regional, and Global Seismic Networks</title>
-      <link>https://lijunzh.github.io/talk/ratec_ssa2017/</link>
+      <link>https://lijunzh.github.io/talk/ratec-ssa2017/</link>
       <pubDate>Wed, 19 Apr 2017 16:45:00 -0600</pubDate>
       
-      <guid>https://lijunzh.github.io/talk/ratec_ssa2017/</guid>
+      <guid>https://lijunzh.github.io/talk/ratec-ssa2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Weighted Random Sampling in Seismic Event Detection/Location (WRASED): Applications to Local, Regional, and Global Seismic Networks</title>
-      <link>https://lijunzh.github.io/publication/ratec_ssa2017/</link>
+      <link>https://lijunzh.github.io/publication/ratec-ssa2017/</link>
       <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://lijunzh.github.io/publication/ratec_ssa2017/</guid>
+      <guid>https://lijunzh.github.io/publication/ratec-ssa2017/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Start A Personal Website using Hugo (with customized domain and GitHub free hosting)</title>
+      <link>https://lijunzh.github.io/post/start-website-hugo/</link>
+      <pubDate>Mon, 27 Mar 2017 11:14:35 -0400</pubDate>
+      
+      <guid>https://lijunzh.github.io/post/start-website-hugo/</guid>
+      <description>
+
+&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#motivation&#34;&gt;Motivation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#building-site-using-hugo-with-academic-theme&#34;&gt;Building site with Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#hosting-your-website-on-github-page&#34;&gt;Hosting static site on GitHub Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#acquire-a-custom-domain&#34;&gt;Acquire a custom domain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;Being a PhD student since 2014, I&amp;rsquo;ve always felt the urge to create a webpage that can demonstrate my work and ideas.
+Overwhelmed by the course work and research loads (also partially due to my laziness), I&amp;rsquo;ve put off this work for almost two years.&lt;br /&gt;
+It was not until I saw &lt;a href=&#34;https://twitter.com/karpathy&#34; target=&#34;_blank&#34;&gt;Andrej Karpathy&lt;/a&gt;&amp;rsquo;s work of the &lt;a href=&#34;http://cs231n.github.io/&#34; target=&#34;_blank&#34;&gt;CS231n course website&lt;/a&gt; when I was trying to pick up &lt;a href=&#34;http://cs231n.github.io/convolutional-networks/&#34; target=&#34;_blank&#34;&gt;Convolutional Neural Network (CNN)&lt;/a&gt; through a quick scan of Stanford&amp;rsquo;s course website.
+In addition to the wonderful summary and explanation of CNN,  I also realized that two good News about creating website:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt; offers the free static site hosting through &lt;a href=&#34;https://pages.github.com/&#34; target=&#34;_blank&#34;&gt;GitHub Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; is a simple yet powerful tool to create structured content&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Being a huge fan of &lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34;&gt;git&lt;/a&gt;, I decided to try a GitHub Page website of my own.
+After a few trials with GitHub Page and follow the example of &lt;a href=&#34;https://github.com/cs231n/cs231n.github.io&#34; target=&#34;_blank&#34;&gt;CS231n&amp;rsquo;s repo&lt;/a&gt;, I pause the project.
+Even though GitHub Page gives you a great flexibility to configure your website freely, it is still too much work to set up the page template and get everything going.
+I still see a large barrier that I saw when I was trying to create my website using HTML + CSS.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/w7Ft2ymGmfc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;Just before I gave up the project and put off my website for maybe next year, I came across this great static site generator, &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; that seems to enlighten the whole project.
+Being standalone software written in &lt;a href=&#34;https://golang.org/&#34; target=&#34;_blank&#34;&gt;Go&lt;/a&gt;, it saves me from configuring and setting up all the complicated testing environment and help me dive into the site creating right away.
+Not to mention that Hugo is &lt;a href=&#34;https://www.youtube.com/watch?v=CdiDYZ51a2o&#34; target=&#34;_blank&#34;&gt;super fasting&lt;/a&gt; in generating pages since it is written in a static typing language (Go).
+Further more, the rich &lt;a href=&#34;http://themes.gohugo.io/&#34; target=&#34;_blank&#34;&gt;theme gallery&lt;/a&gt; offers a wide range of options to &lt;a href=&#34;https://www.youtube.com/watch?v=w7Ft2ymGmfc&#34; target=&#34;_blank&#34;&gt;create a website in two minutes&lt;/a&gt; with &lt;a href=&#34;http://getbootstrap.com/&#34; target=&#34;_blank&#34;&gt;bootstrap&lt;/a&gt; support.&lt;/p&gt;
+
+&lt;h2 id=&#34;building-site-using-hugo-with-academic-theme&#34;&gt;Building site using Hugo with Academic theme&lt;/h2&gt;
+
+&lt;p&gt;Following the &lt;a href=&#34;https://www.youtube.com/watch?v=w7Ft2ymGmfc&#34; target=&#34;_blank&#34;&gt;YouTube video&lt;/a&gt; before or this &lt;a href=&#34;https://gohugo.io/overview/quickstart/&#34; target=&#34;_blank&#34;&gt;tutorial&lt;/a&gt;, it is easy to start building site with Hugo. Some useful commands are listed here for a glance (and my future reference):&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Commands&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;ldquo;hugo&amp;rdquo;&lt;/td&gt;
+&lt;td&gt;Build your website&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&amp;ldquo;hugo -t &amp;lt;theme&amp;gt;&amp;rdquo;&lt;/td&gt;
+&lt;td&gt;Build your website with &amp;lt;theme&amp;gt; downloaded in /theme directory&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&amp;ldquo;hugo version&amp;rdquo;&lt;/td&gt;
+&lt;td&gt;Check hugo version&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&amp;ldquo;hugo new site &amp;lt;sitename&amp;gt;&amp;rdquo;&lt;/td&gt;
+&lt;td&gt;Build a new site under current directory&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&amp;ldquo;hugo new /post/blog_page.md&amp;rdquo;&lt;/td&gt;
+&lt;td&gt;Create a new post named &amp;ldquo;blog_page.md&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&amp;ldquo;hugo server -w&amp;rdquo;&lt;/td&gt;
+&lt;td&gt;Watch file system for changes and recreate as needed&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;A working example can be found in this &lt;a href=&#34;https://gohugo.io/overview/quickstart/&#34; target=&#34;_blank&#34;&gt;quick tutorial&lt;/a&gt;, but here are important steps I took as milestones:&lt;/p&gt;
+
+&lt;h3 id=&#34;create-an-empty-website&#34;&gt;Create an empty website:&lt;/h3&gt;
+
+&lt;p&gt;Type the following command and you will get a site named &amp;ldquo;lijun&amp;rdquo; created by Hugo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new site lijun
+tree -a
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here are the results:
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lijunzh.github.io/img/post/create_site.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Resulting message from Hugo after &amp;#39;hugo new site&amp;#39;.&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lijunzh.github.io/img/post/tree_a.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Resulting file structure from Hugo after &amp;#39;hugo new site&amp;#39;&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Preview your template:
+Use the &lt;code&gt;hugo server -w&lt;/code&gt; to preview the template under &amp;ldquo;localhost:1313&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;If you are creating a project site under some domain name such as &amp;ldquo;domain.com/project&amp;rdquo;, the site can be previewed under &amp;ldquo;localhost:1313/project&amp;rdquo;.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;p&gt;When the site is first created, you should see nothing under &amp;ldquo;localhost:1313&amp;rdquo;.&lt;/p&gt;
+
+&lt;h3 id=&#34;choose-a-theme&#34;&gt;Choose a theme:&lt;/h3&gt;
+
+&lt;p&gt;We choose &lt;a href=&#34;http://themes.gohugo.io/academic/&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt; since we are trying to create a personal webpage for PhD students. You can choose whichever theme that fits your need.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/gcushen/hugo-academic.git themes/academic
+cp -av themes/academic/exampleSite/* .
+hugo server -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When open &amp;ldquo;localhost:1313&amp;rdquo; now in browser, here is what you will be seeing:&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lijunzh.github.io/img/post/academic_template.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Screen capture of template site view.&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;h3 id=&#34;adding-contents&#34;&gt;Adding contents.&lt;/h3&gt;
+
+&lt;p&gt;Now you can start the real work of creating website: adding content.
+Markdown language is assumed in this framework and there is a &lt;a href=&#34;https://lijunzh.github.io/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;nice Markdown tutorial&lt;/a&gt; on Markdown syntax in the default post along with template.
+To better organize your content, you can check out this &lt;a href=&#34;https://lijunzh.github.io/post/managing-content/&#34; target=&#34;_blank&#34;&gt;content managing tutorial&lt;/a&gt;.
+After update the &amp;ldquo;/content&amp;rdquo; directory with your own information, here is what you can expect:&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lijunzh.github.io/img/post/academic_lijun.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Screen capture of lijun&amp;#39;s site view.&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;h3 id=&#34;generate-local-site&#34;&gt;Generate local site&lt;/h3&gt;
+
+&lt;p&gt;You can generate the HTML/CSS file locally under &amp;ldquo;/public&amp;rdquo; directory by the following command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo -t academic
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;The files generated in /public cannot be properly render by your local default. You can only preview it through &amp;ldquo;localhost:1313&amp;rdquo; after typing &lt;code&gt;hugo server -w&lt;/code&gt; in the terminal.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;hosting-your-website-on-github-page&#34;&gt;Hosting your website on GitHub Page&lt;/h2&gt;
+
+&lt;p&gt;GitHub generously offers &lt;a href=&#34;https://pages.github.com/&#34; target=&#34;_blank&#34;&gt;static page hosting&lt;/a&gt; without content size limit.
+This is the ideal place to host academic personal website since there can be some cases that your personal files (e.g PDFs of your old papers) exceed the limit of free plan on other hosting service.&lt;/p&gt;
+
+&lt;p&gt;There are multiple tutorial out there introducing the basic techniques of hosting website on GitHub Page. Here is a short list of what I referred to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hugo&amp;rsquo;s tutorial titleed &lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Hosting on GitHub Page&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Jonathan McGlone&amp;rsquo;s blog titled &lt;a href=&#34;http://jmcglone.com/guides/github-pages/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Creating and Hosting a Personal Site on GitHub&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub Tutorial titled &lt;a href=&#34;https://help.github.com/articles/using-a-custom-domain-with-github-pages/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Using a custom domain with GitHub Pages&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/&#34; target=&#34;_blank&#34;&gt;Hugo blog&lt;/a&gt; offers a nice short script that can be used to automatically deploy website. I included here for reference:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
+
+echo -e &amp;quot;\033[0;32mDeploying updates to GitHub...\033[0m&amp;quot;
+
+# Build the project.
+hugo # if using a theme, replace by `hugo -t &amp;lt;yourtheme&amp;gt;`
+
+# Go To Public folder
+cd public
+# Add changes to git.
+git add -A
+
+# Commit changes.
+msg=&amp;quot;rebuilding site `date`&amp;quot;
+if [ $# -eq 1 ]
+  then msg=&amp;quot;$1&amp;quot;
+fi
+git commit -m &amp;quot;$msg&amp;quot;
+
+# Push source and build repos.
+git push origin master
+
+# Come Back
+cd ..
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;acquire-a-custom-domain&#34;&gt;Acquire a custom domain&lt;/h2&gt;
+
+&lt;p&gt;Many people would prefer to have their personal website under a URL in the format of &amp;ldquo;FirstnameLastname.com&amp;rdquo; rather than &amp;ldquo;FirstnameLastname.github.io&amp;rdquo; which is the default URL for any GitHub page.
+In that case, a custom domain is right for you.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;p&gt;Note that although GitHub Page does support &lt;a href=&#34;https://en.wikipedia.org/wiki/HTTPS&#34; target=&#34;_blank&#34;&gt;HTTPS&lt;/a&gt; by default now, it does &lt;a href=&#34;https://github.com/isaacs/github/issues/156&#34; target=&#34;_blank&#34;&gt;NOT support HTTPS on custom domain&lt;/a&gt;. A &lt;a href=&#34;https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/&#34; target=&#34;_blank&#34;&gt;partial workaround&lt;/a&gt; is available through &lt;a href=&#34;https://www.cloudflare.com/&#34; target=&#34;_blank&#34;&gt;CloudFlare&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;p&gt;If you are OK with the inconvenience about HTTPS, GitHub offers this &lt;a href=&#34;https://help.github.com/articles/quick-start-setting-up-a-custom-domain/&#34; target=&#34;_blank&#34;&gt;short tutorial&lt;/a&gt; to set the custom domain up.  For automatic redirection, check out this &lt;a href=&#34;https://help.github.com/articles/custom-domain-redirects-for-github-pages-sites/&#34; target=&#34;_blank&#34;&gt;table&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you do not have a custom domain already, there are multiple providers that offer cheap domain. I went with &lt;a href=&#34;https://domains.google/#/&#34; target=&#34;_blank&#34;&gt;Google Domains&lt;/a&gt; for its simplicity. You can certainly pick any of them such as &lt;a href=&#34;https://www.godaddy.com/&#34; target=&#34;_blank&#34;&gt;GoDaddy&lt;/a&gt; and &lt;a href=&#34;https://www.namecheap.com/&#34; target=&#34;_blank&#34;&gt;NameCheap&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;With the recent development of static site generator and GitHub Page, you can easily set up a personal site in a Sunday afternoon. The git-based deployment is very much in favor of my git-centric working flow.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>RANSAC-based Arrival Time Event Clustering (RATEC)</title>
-      <link>https://lijunzh.github.io/project/random_sampling/</link>
+      <link>https://lijunzh.github.io/project/random-sampling/</link>
       <pubDate>Fri, 24 Mar 2017 16:17:13 -0400</pubDate>
       
-      <guid>https://lijunzh.github.io/project/random_sampling/</guid>
+      <guid>https://lijunzh.github.io/project/random-sampling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A multi-channel approach for automatic microseismic event localization using RANSAC-based arrival time event clustering (RATEC)</title>
-      <link>https://lijunzh.github.io/publication/ratec_gp/</link>
+      <link>https://lijunzh.github.io/publication/ratec-gp/</link>
       <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://lijunzh.github.io/publication/ratec_gp/</guid>
+      <guid>https://lijunzh.github.io/publication/ratec-gp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Microseismic events enhancement and detection in sensor arrays using autocorrelation based filtering</title>
-      <link>https://lijunzh.github.io/publication/autocorr_gp/</link>
+      <link>https://lijunzh.github.io/publication/autocorr-gp/</link>
       <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://lijunzh.github.io/publication/autocorr_gp/</guid>
+      <guid>https://lijunzh.github.io/publication/autocorr-gp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An automatic arrival time picking method based on RANSAC curve fitting</title>
-      <link>https://lijunzh.github.io/talk/ransac_eage2016/</link>
+      <link>https://lijunzh.github.io/talk/ransac-eage2016/</link>
       <pubDate>Thu, 02 Jun 2016 09:20:00 +0100</pubDate>
       
-      <guid>https://lijunzh.github.io/talk/ransac_eage2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An automatic arrival time picking method based on RANSAC curve fitting</title>
-      <link>https://lijunzh.github.io/publication/ransac_eage2016/</link>
-      <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://lijunzh.github.io/publication/ransac_eage2016/</guid>
+      <guid>https://lijunzh.github.io/talk/ransac-eage2016/</guid>
       <description></description>
     </item>
     

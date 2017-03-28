@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.19" />
+  <meta name="author" content="Lijun Zhu">
+  <meta name="description" content="PhD student in Electrical Engineering">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="https://lijunzh.github.io/index.xml" type="application/rss+xml" title="Lijun Zhu">
+  <link rel="feed" href="https://lijunzh.github.io/index.xml" type="application/rss+xml" title="Lijun Zhu">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://lijunzh.github.io/post/start-website-hugo/">
+
+  
+
+  <title>Start A Personal Website using Hugo (with customized domain and GitHub free hosting) | Lijun Zhu</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Lijun Zhu</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Publications</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+  <div class="article-container">
+    <h1 itemprop="name">Start A Personal Website using Hugo (with customized domain and GitHub free hosting)</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2017-03-27 11:14:35 -0400 EDT" itemprop="datePublished">
+      Mon, Mar 27, 2017
+    </time>
+  </span>
+
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/website">website</a
+    >, 
+    
+    <a href="/tags/markdown">markdown</a
+    >, 
+    
+    <a href="/tags/hugo">hugo</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2flijunzh.github.io%2fpost%2fstart-website-hugo%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Start%20A%20Personal%20Website%20using%20Hugo%20%28with%20customized%20domain%20and%20GitHub%20free%20hosting%29&amp;url=https%3a%2f%2flijunzh.github.io%2fpost%2fstart-website-hugo%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2flijunzh.github.io%2fpost%2fstart-website-hugo%2f&amp;title=Start%20A%20Personal%20Website%20using%20Hugo%20%28with%20customized%20domain%20and%20GitHub%20free%20hosting%29"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2flijunzh.github.io%2fpost%2fstart-website-hugo%2f&amp;title=Start%20A%20Personal%20Website%20using%20Hugo%20%28with%20customized%20domain%20and%20GitHub%20free%20hosting%29"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Start%20A%20Personal%20Website%20using%20Hugo%20%28with%20customized%20domain%20and%20GitHub%20free%20hosting%29&amp;body=https%3a%2f%2flijunzh.github.io%2fpost%2fstart-website-hugo%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h2 id="table-of-contents">Table of Contents:</h2>
+
+<ul>
+<li><a href="#motivation">Motivation</a></li>
+<li><a href="#building-site-using-hugo-with-academic-theme">Building site with Hugo</a></li>
+<li><a href="#hosting-your-website-on-github-page">Hosting static site on GitHub Page</a></li>
+<li><a href="#acquire-a-custom-domain">Acquire a custom domain</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ul>
+
+<h2 id="motivation">Motivation</h2>
+
+<p>Being a PhD student since 2014, I&rsquo;ve always felt the urge to create a webpage that can demonstrate my work and ideas.
+Overwhelmed by the course work and research loads (also partially due to my laziness), I&rsquo;ve put off this work for almost two years.<br />
+It was not until I saw <a href="https://twitter.com/karpathy" target="_blank">Andrej Karpathy</a>&rsquo;s work of the <a href="http://cs231n.github.io/" target="_blank">CS231n course website</a> when I was trying to pick up <a href="http://cs231n.github.io/convolutional-networks/" target="_blank">Convolutional Neural Network (CNN)</a> through a quick scan of Stanford&rsquo;s course website.
+In addition to the wonderful summary and explanation of CNN,  I also realized that two good News about creating website:</p>
+
+<ul>
+<li><a href="https://github.com" target="_blank">GitHub</a> offers the free static site hosting through <a href="https://pages.github.com/" target="_blank">GitHub Page</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Markdown" target="_blank">Markdown</a> is a simple yet powerful tool to create structured content</li>
+</ul>
+
+<p>Being a huge fan of <a href="https://git-scm.com/" target="_blank">git</a>, I decided to try a GitHub Page website of my own.
+After a few trials with GitHub Page and follow the example of <a href="https://github.com/cs231n/cs231n.github.io" target="_blank">CS231n&rsquo;s repo</a>, I pause the project.
+Even though GitHub Page gives you a great flexibility to configure your website freely, it is still too much work to set up the page template and get everything going.
+I still see a large barrier that I saw when I was trying to create my website using HTML + CSS.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/w7Ft2ymGmfc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
+
+
+<p>Just before I gave up the project and put off my website for maybe next year, I came across this great static site generator, <a href="https://gohugo.io/" target="_blank">Hugo</a> that seems to enlighten the whole project.
+Being standalone software written in <a href="https://golang.org/" target="_blank">Go</a>, it saves me from configuring and setting up all the complicated testing environment and help me dive into the site creating right away.
+Not to mention that Hugo is <a href="https://www.youtube.com/watch?v=CdiDYZ51a2o" target="_blank">super fasting</a> in generating pages since it is written in a static typing language (Go).
+Further more, the rich <a href="http://themes.gohugo.io/" target="_blank">theme gallery</a> offers a wide range of options to <a href="https://www.youtube.com/watch?v=w7Ft2ymGmfc" target="_blank">create a website in two minutes</a> with <a href="http://getbootstrap.com/" target="_blank">bootstrap</a> support.</p>
+
+<h2 id="building-site-using-hugo-with-academic-theme">Building site using Hugo with Academic theme</h2>
+
+<p>Following the <a href="https://www.youtube.com/watch?v=w7Ft2ymGmfc" target="_blank">YouTube video</a> before or this <a href="https://gohugo.io/overview/quickstart/" target="_blank">tutorial</a>, it is easy to start building site with Hugo. Some useful commands are listed here for a glance (and my future reference):</p>
+
+<table>
+<thead>
+<tr>
+<th>Commands</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>&ldquo;hugo&rdquo;</td>
+<td>Build your website</td>
+</tr>
+
+<tr>
+<td>&ldquo;hugo -t &lt;theme&gt;&rdquo;</td>
+<td>Build your website with &lt;theme&gt; downloaded in /theme directory</td>
+</tr>
+
+<tr>
+<td>&ldquo;hugo version&rdquo;</td>
+<td>Check hugo version</td>
+</tr>
+
+<tr>
+<td>&ldquo;hugo new site &lt;sitename&gt;&rdquo;</td>
+<td>Build a new site under current directory</td>
+</tr>
+
+<tr>
+<td>&ldquo;hugo new /post/blog_page.md&rdquo;</td>
+<td>Create a new post named &ldquo;blog_page.md&rdquo;</td>
+</tr>
+
+<tr>
+<td>&ldquo;hugo server -w&rdquo;</td>
+<td>Watch file system for changes and recreate as needed</td>
+</tr>
+</tbody>
+</table>
+
+<p>A working example can be found in this <a href="https://gohugo.io/overview/quickstart/" target="_blank">quick tutorial</a>, but here are important steps I took as milestones:</p>
+
+<h3 id="create-an-empty-website">Create an empty website:</h3>
+
+<p>Type the following command and you will get a site named &ldquo;lijun&rdquo; created by Hugo:</p>
+
+<pre><code>hugo new site lijun
+tree -a
+</code></pre>
+
+<p>Here are the results:
+
+<figure >
+    
+        <img src="/img/post/create_site.png" />
+    
+    
+    <figcaption>
+        <h4>Resulting message from Hugo after &#39;hugo new site&#39;.</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<figure >
+    
+        <img src="/img/post/tree_a.png" />
+    
+    
+    <figcaption>
+        <h4>Resulting file structure from Hugo after &#39;hugo new site&#39;</h4>
+        
+    </figcaption>
+    
+</figure>
+</p>
+
+<ul>
+<li>Preview your template:
+Use the <code>hugo server -w</code> to preview the template under &ldquo;localhost:1313&rdquo;.</li>
+</ul>
+
+<div class="alert alert-note">
+  <p>If you are creating a project site under some domain name such as &ldquo;domain.com/project&rdquo;, the site can be previewed under &ldquo;localhost:1313/project&rdquo;.</p>
+
+</div>
+
+
+<p>When the site is first created, you should see nothing under &ldquo;localhost:1313&rdquo;.</p>
+
+<h3 id="choose-a-theme">Choose a theme:</h3>
+
+<p>We choose <a href="http://themes.gohugo.io/academic/" target="_blank">Academic</a> since we are trying to create a personal webpage for PhD students. You can choose whichever theme that fits your need.</p>
+
+<pre><code>git clone https://github.com/gcushen/hugo-academic.git themes/academic
+cp -av themes/academic/exampleSite/* .
+hugo server -w
+</code></pre>
+
+<p>When open &ldquo;localhost:1313&rdquo; now in browser, here is what you will be seeing:</p>
+
+
+<figure >
+    
+        <img src="/img/post/academic_template.png" />
+    
+    
+    <figcaption>
+        <h4>Screen capture of template site view.</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<h3 id="adding-contents">Adding contents.</h3>
+
+<p>Now you can start the real work of creating website: adding content.
+Markdown language is assumed in this framework and there is a <a href="https://lijunzh.github.io/post/writing-markdown-latex/" target="_blank">nice Markdown tutorial</a> on Markdown syntax in the default post along with template.
+To better organize your content, you can check out this <a href="https://lijunzh.github.io/post/managing-content/" target="_blank">content managing tutorial</a>.
+After update the &ldquo;/content&rdquo; directory with your own information, here is what you can expect:</p>
+
+
+<figure >
+    
+        <img src="/img/post/academic_lijun.png" />
+    
+    
+    <figcaption>
+        <h4>Screen capture of lijun&#39;s site view.</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<h3 id="generate-local-site">Generate local site</h3>
+
+<p>You can generate the HTML/CSS file locally under &ldquo;/public&rdquo; directory by the following command:</p>
+
+<pre><code>hugo -t academic
+</code></pre>
+
+<div class="alert alert-note">
+  <p>The files generated in /public cannot be properly render by your local default. You can only preview it through &ldquo;localhost:1313&rdquo; after typing <code>hugo server -w</code> in the terminal.</p>
+
+</div>
+
+
+<h2 id="hosting-your-website-on-github-page">Hosting your website on GitHub Page</h2>
+
+<p>GitHub generously offers <a href="https://pages.github.com/" target="_blank">static page hosting</a> without content size limit.
+This is the ideal place to host academic personal website since there can be some cases that your personal files (e.g PDFs of your old papers) exceed the limit of free plan on other hosting service.</p>
+
+<p>There are multiple tutorial out there introducing the basic techniques of hosting website on GitHub Page. Here is a short list of what I referred to:</p>
+
+<ul>
+<li>Hugo&rsquo;s tutorial titleed <a href="https://gohugo.io/tutorials/github-pages-blog/" target="_blank">&ldquo;Hosting on GitHub Page&rdquo;</a></li>
+<li>Jonathan McGlone&rsquo;s blog titled <a href="http://jmcglone.com/guides/github-pages/" target="_blank">&ldquo;Creating and Hosting a Personal Site on GitHub&rdquo;</a></li>
+<li>GitHub Tutorial titled <a href="https://help.github.com/articles/using-a-custom-domain-with-github-pages/" target="_blank">&ldquo;Using a custom domain with GitHub Pages&rdquo;</a></li>
+</ul>
+
+<p>The <a href="https://gohugo.io/tutorials/github-pages-blog/" target="_blank">Hugo blog</a> offers a nice short script that can be used to automatically deploy website. I included here for reference:</p>
+
+<pre><code>#!/bin/bash
+
+echo -e &quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;
+
+# Build the project.
+hugo # if using a theme, replace by `hugo -t &lt;yourtheme&gt;`
+
+# Go To Public folder
+cd public
+# Add changes to git.
+git add -A
+
+# Commit changes.
+msg=&quot;rebuilding site `date`&quot;
+if [ $# -eq 1 ]
+  then msg=&quot;$1&quot;
+fi
+git commit -m &quot;$msg&quot;
+
+# Push source and build repos.
+git push origin master
+
+# Come Back
+cd ..
+</code></pre>
+
+<h2 id="acquire-a-custom-domain">Acquire a custom domain</h2>
+
+<p>Many people would prefer to have their personal website under a URL in the format of &ldquo;FirstnameLastname.com&rdquo; rather than &ldquo;FirstnameLastname.github.io&rdquo; which is the default URL for any GitHub page.
+In that case, a custom domain is right for you.</p>
+
+<div class="alert alert-warning">
+  <p>Note that although GitHub Page does support <a href="https://en.wikipedia.org/wiki/HTTPS" target="_blank">HTTPS</a> by default now, it does <a href="https://github.com/isaacs/github/issues/156" target="_blank">NOT support HTTPS on custom domain</a>. A <a href="https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/" target="_blank">partial workaround</a> is available through <a href="https://www.cloudflare.com/" target="_blank">CloudFlare</a>.</p>
+
+</div>
+
+
+<p>If you are OK with the inconvenience about HTTPS, GitHub offers this <a href="https://help.github.com/articles/quick-start-setting-up-a-custom-domain/" target="_blank">short tutorial</a> to set the custom domain up.  For automatic redirection, check out this <a href="https://help.github.com/articles/custom-domain-redirects-for-github-pages-sites/" target="_blank">table</a>.</p>
+
+<p>If you do not have a custom domain already, there are multiple providers that offer cheap domain. I went with <a href="https://domains.google/#/" target="_blank">Google Domains</a> for its simplicity. You can certainly pick any of them such as <a href="https://www.godaddy.com/" target="_blank">GoDaddy</a> and <a href="https://www.namecheap.com/" target="_blank">NameCheap</a>.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>With the recent development of static site generator and GitHub Page, you can easily set up a personal site in a Sunday afternoon. The git-based deployment is very much in favor of my git-centric working flow.</p>
+
+    </div>
+  </div>
+
+</article>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="https://lijunzh.github.io/post/getting-started/"><span
+      aria-hidden="true">&larr;</span> Getting started with the Academic framework for Hugo</a></li>
+    
+
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 Lijun Zhu &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+
