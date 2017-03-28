@@ -47,7 +47,7 @@ After a quick Google search, I came across the &lt;a href=&#34;https://github.co
 
 &lt;p&gt;You can easily download the &lt;a href=&#34;https://github.com/mattingalls/Soundflower/releases/tag/2.0b2&#34; target=&#34;_blank&#34;&gt;latest release&lt;/a&gt; on GitHub.
 Installation is quite simple through dmg package but you need the administrative right.
-Once installed, you should see two additional device under &amp;ldquo;Audio MIDI Setup&amp;rdquo; menu.&lt;/p&gt;
+Once installed, you should see two additional devices under &amp;ldquo;Audio MIDI Setup&amp;rdquo; menu.&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -65,7 +65,7 @@ Once installed, you should see two additional device under &amp;ldquo;Audio MIDI
 
 &lt;h2 id=&#34;record-with-quicktime&#34;&gt;Record with QuickTime&lt;/h2&gt;
 
-&lt;p&gt;The steps of recording is listed below:&lt;/p&gt;
+&lt;p&gt;The steps of recording are listed below:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Change system audio output to &amp;ldquo;Soundflower (2ch)&amp;rdquo;
@@ -81,7 +81,7 @@ Once installed, you should see two additional device under &amp;ldquo;Audio MIDI
 &lt;h2 id=&#34;multi-ouput&#34;&gt;Multi-Ouput&lt;/h2&gt;
 
 &lt;p&gt;Using the previous method, there will be no aduio output to the system speakers which can be inconvenient some time.
-By adding a &amp;ldquo;Multi-Output&amp;rdquo; device in &amp;ldquo;Audio MIDI Setup&amp;rdquo; as shwon below, you can have both the internal speakers and recording audio output working at the same time.&lt;/p&gt;
+By adding a &amp;ldquo;Multi-Output&amp;rdquo; device in &amp;ldquo;Audio MIDI Setup&amp;rdquo; as shwon below, you can have both the internal speaker and recording audio output working at the same time.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://lijunzh.github.io/img/post/multi-output.png&#34; alt=&#34;multi-output&#34; /&gt;&lt;/p&gt;
 
