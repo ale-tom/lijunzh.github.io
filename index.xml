@@ -29,6 +29,67 @@
     </item>
     
     <item>
+      <title>Record Screen on Mac with Internal Audio</title>
+      <link>https://lijunzh.github.io/post/screen-record-audio/</link>
+      <pubDate>Tue, 28 Mar 2017 12:05:29 -0400</pubDate>
+      
+      <guid>https://lijunzh.github.io/post/screen-record-audio/</guid>
+      <description>
+
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;Recently, I was asked to record some online video for my friend.
+The default &lt;a href=&#34;https://support.apple.com/kb/ph5882?locale=en_US&#34; target=&#34;_blank&#34;&gt;QuickTime&lt;/a&gt; screen recorder only supports image but not audio due to Mac&amp;rsquo;s &lt;a href=&#34;https://developer.apple.com/library/content/documentation/Security/Conceptual/System_Integrity_Protection_Guide/KernelExtensions/KernelExtensions.html&#34; target=&#34;_blank&#34;&gt;System Integrity Protection&lt;/a&gt;.
+To keep my system as clean as possible, I prefer not to install too many apps.
+After a quick Google search, I came across the &lt;a href=&#34;https://github.com/mattingalls/Soundflower&#34; target=&#34;_blank&#34;&gt;Soundflower&lt;/a&gt; which builds a kernel extension installed under &amp;ldquo;/Library/Extensions/&amp;rdquo;.&lt;/p&gt;
+
+&lt;h2 id=&#34;download-and-install-soundflower-https-github-com-mattingalls-soundflower&#34;&gt;Download and install &lt;a href=&#34;https://github.com/mattingalls/Soundflower&#34; target=&#34;_blank&#34;&gt;Soundflower&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;You can easily download the &lt;a href=&#34;https://github.com/mattingalls/Soundflower/releases/tag/2.0b2&#34; target=&#34;_blank&#34;&gt;latest release&lt;/a&gt; on GitHub.
+Installation is quite simple through dmg package but you need the administrative right.
+Once installed, you should see two additional device under &amp;ldquo;Audio MIDI Setup&amp;rdquo; menu.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lijunzh.github.io/img/post/audio-midi.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Audio MIDI Setup after installing Soundflower.&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;h2 id=&#34;record-with-quicktime&#34;&gt;Record with QuickTime&lt;/h2&gt;
+
+&lt;p&gt;The steps of recording is listed below:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Change system audio output to &amp;ldquo;Soundflower (2ch)&amp;rdquo;
+&lt;img src=&#34;https://lijunzh.github.io/img/post/system-audio-output.png&#34; alt=&#34;change system audo output&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Start screen recording in QuickTime
+&lt;img src=&#34;https://lijunzh.github.io/img/post/quicktime-screen-record.png&#34; alt=&#34;start record screen in QuickTime&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Change audio input to &amp;ldquo;Soundflower (2ch)&amp;rdquo;
+&lt;img src=&#34;https://lijunzh.github.io/img/post/quicktime-audio-input.png&#34; alt=&#34;change audio innput&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;multi-ouput&#34;&gt;Multi-Ouput&lt;/h2&gt;
+
+&lt;p&gt;Using the previous method, there will be no aduio output to the system speakers which can be inconvenient some time.
+By adding a &amp;ldquo;Multi-Output&amp;rdquo; device in &amp;ldquo;Audio MIDI Setup&amp;rdquo; as shwon below, you can have both the internal speakers and recording audio output working at the same time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lijunzh.github.io/img/post/multi-output.png&#34; alt=&#34;multi-output&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Remember to select the Multi-Ouput device in the system audio output before you start to record.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Start A Personal Website using Hugo (with customized domain and GitHub free hosting)</title>
       <link>https://lijunzh.github.io/post/start-website-hugo/</link>
       <pubDate>Mon, 27 Mar 2017 11:14:35 -0400</pubDate>
@@ -315,15 +376,6 @@ In that case, a custom domain is right for you.&lt;/p&gt;
       <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://lijunzh.github.io/publication/autocorr-gp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An automatic arrival time picking method based on RANSAC curve fitting</title>
-      <link>https://lijunzh.github.io/talk/ransac-eage2016/</link>
-      <pubDate>Thu, 02 Jun 2016 09:20:00 +0100</pubDate>
-      
-      <guid>https://lijunzh.github.io/talk/ransac-eage2016/</guid>
       <description></description>
     </item>
     
