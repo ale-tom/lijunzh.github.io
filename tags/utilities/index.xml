@@ -2,12 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Utilities on Lijun Zhu</title>
-    <link>https://lijunzh.github.io/tags/utilities/index.xml</link>
+    <link>https://lijunzh.github.io/tags/utilities/</link>
     <description>Recent content in Utilities on Lijun Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Lijun Zhu</copyright>
-    <atom:link href="/tags/utilities/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Mar 2017 12:05:29 -0400</lastBuildDate>
+    <atom:link href="/tags/utilities/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Record Screen on Mac with Internal Audio</title>

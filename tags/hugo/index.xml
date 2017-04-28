@@ -2,12 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Lijun Zhu</title>
-    <link>https://lijunzh.github.io/tags/hugo/index.xml</link>
+    <link>https://lijunzh.github.io/tags/hugo/</link>
     <description>Recent content in Hugo on Lijun Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Lijun Zhu</copyright>
-    <atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Mar 2017 11:14:35 -0400</lastBuildDate>
+    <atom:link href="/tags/hugo/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Start A Personal Website using Hugo (with customized domain and GitHub free hosting)</title>

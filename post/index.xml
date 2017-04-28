@@ -2,13 +2,132 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Lijun Zhu</title>
-    <link>https://lijunzh.github.io/post/index.xml</link>
+    <link>https://lijunzh.github.io/post/</link>
     <description>Recent content in Posts on Lijun Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Lijun Zhu</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/post/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Web 2.0 for Researchers</title>
+      <link>https://lijunzh.github.io/post/web-2-0-for-researchers/</link>
+      <pubDate>Wed, 05 Apr 2017 06:22:04 -0400</pubDate>
+      
+      <guid>https://lijunzh.github.io/post/web-2-0-for-researchers/</guid>
+      <description>
+
+&lt;h1 id=&#34;motivation&#34;&gt;Motivation&lt;/h1&gt;
+
+&lt;p&gt;Being a PhD student, we are trying to build our scholoarship in five to seven years through literature review, conducting independant research, and peer-reviewed publication.
+However, the real haunting question that I asked myself every once a while is this:&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;How to make an &lt;strong&gt;IMPACT&lt;/strong&gt; on your community and the general public?&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;p&gt;It is particularly true when I am approach the end of my PhD studies.
+To advertise work and promoting myself become more than a concept in the PhD orientation book.
+It is an urgent need.
+So the question gradually changed to&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;How to make yourself &lt;strong&gt;KNOWN&lt;/strong&gt; to your community and the general public?&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;p&gt;Other than doing good research and advertising my work to my peers through traditional approaches, such as:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Publish a journal paper&lt;/li&gt;
+&lt;li&gt;Give a oral / poster presentaton in a conference&lt;/li&gt;
+&lt;li&gt;Be reported by magazines or local/national news (if ever possible)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some of the recent trends that people around me start to use are catching my eyes, e.g.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Publish code / tools online&lt;/li&gt;
+&lt;li&gt;Build a website and write online tutorial / books&lt;/li&gt;
+&lt;li&gt;Share their work in social media&lt;/li&gt;
+&lt;li&gt;Be involved in online forum discusson&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Although, these are much less formal communication, it does raise people&amp;rsquo;s attention to my works and attract potential collaborators.&lt;/p&gt;
+
+&lt;h1 id=&#34;web-2-0&#34;&gt;Web 2.0&lt;/h1&gt;
+
+&lt;h2 id=&#34;what-is-web-2-0&#34;&gt;What is Web 2.0?&lt;/h2&gt;
+
+&lt;p&gt;Accroding to Wikipedia,&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Web 2.0 describes World Wide Web websites that emphasize user-generated content, usability (ease of use, even by non-experts), and interoperability (this means that a website can work well with other products, systems and devices) for end users.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html&#34; target=&#34;_blank&#34;&gt;Tim O&amp;rsquo;Reilly&lt;/a&gt;, one of advercate of the concept of Web 2.0, emphasized on his webpage that &lt;strong&gt;Service&lt;/strong&gt; instead of &lt;strong&gt;Software&lt;/strong&gt; become the basis of the Web.
+The center of service is the content that delivered through those service.
+One company or a few of companies are never able to deliver all those useful content to the general public.
+It is up to the user to become the content provider.
+Hence, in the age of the Web 2.0, we are searching for the best serice that can help ourselves, as users, to deliver our content to the rest of users.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-can-web-2-0-do-for-researchers&#34;&gt;What can Web 2.0 do for researchers?&lt;/h2&gt;
+
+&lt;p&gt;So why does this matters to researchers? We, researchers, are naturally content creators that are constantly searching for the best way to make ourselves heard.
+We can achieve that by doing the following through many available services:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Communication / social media (&lt;a href=&#34;https://www.facebook.com&#34; target=&#34;_blank&#34;&gt;Facebook&lt;/a&gt; / &lt;a href=&#34;https://twitter.com&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; / &lt;a href=&#34;collobration&#34; target=&#34;_blank&#34;&gt;Wechat&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Online publishing / advertising  (&lt;a href=&#34;https://www.lijunzhu.info&#34; target=&#34;_blank&#34;&gt;My Webiste&lt;/a&gt; / &lt;a href=&#34;https://doc.rust-lang.org/nightly/book/second-edition/&#34; target=&#34;_blank&#34;&gt;The Rust Programming Language&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Code sharing / community development (&lt;a href=&#34;https://github.com&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt; / &lt;a href=&#34;bitbucket pipelines&#34; target=&#34;_blank&#34;&gt;BitBucket&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Online disucssion and Q&amp;amp;A forum (&lt;a href=&#34;https://www.reddit.com&#34; target=&#34;_blank&#34;&gt;Reddit&lt;/a&gt; / &lt;a href=&#34;http://stackoverflow.com&#34; target=&#34;_blank&#34;&gt;StackOverflow&lt;/a&gt; / &lt;a href=&#34;disqus review&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;
+
+&lt;p&gt;The Web 2.0 provide a list of tools that can help us get there faster and in a elegent way:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GitHub&lt;/li&gt;
+&lt;li&gt;Markdown&lt;/li&gt;
+&lt;li&gt;Static Site / book&lt;/li&gt;
+&lt;li&gt;Online demo / app
+
+&lt;ul&gt;
+&lt;li&gt;video (3Blue1Brown)&lt;/li&gt;
+&lt;li&gt;app (&lt;a href=&#34;https://sensortower.com/ios/us/song-qian/app/my-visa-bulletin/917503903/&#34; target=&#34;_blank&#34;&gt;US Visa Bulletin app&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;site (&lt;a href=&#34;http://www.arxiv-sanity.com&#34; target=&#34;_blank&#34;&gt;http://www.arxiv-sanity.com&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;the-basic-concepts&#34;&gt;The Basic Concepts&lt;/h1&gt;
+
+&lt;p&gt;To understand all these new tools and softwares, we need first ask ourselves: &amp;ldquo;Why do they exists in the first place?&amp;rdquo;
+Isn&amp;rsquo;t that our old tools are good enough for the communication and publishing needs?
+The answer is simple: &amp;ldquo;Yes they are.&amp;rdquo;
+The traditional publishing scheme is more than sufficient to help us release the research work and make it known to the scientific community.
+Sometimes, I even feel that they are more than enough.
+Nowadays, we have more and more journals and endless conference that we can show the world the andvance we made in our research frontier.
+But that gradually becomes a problem: the overwhelm of information that actually made many of us ignorance to many information.
+Close circles starts to form (like in WeChat) that share most relevent research updates to a restricted group of peopel.
+We are less likely to go to many big conference but in favor of small focused workshops.
+In some sense, the current simualtion actually makes it more difficult, especially for the new-comers in the research field, to get your idea across to people that works on the similar field.&lt;/p&gt;
+
+&lt;p&gt;The Web 2.0 emerges along with the self-publishing community that believes in quick and straight forward communication.
+It is the ideal tool that we, as young researchers, can take advantage of to advertise our work and promoting ourselves in the community.
+More importantly, it helps us to find folks like us that take internet collaboration to it full extend.
+The website and repository we created along the way of our communication and collobartion will easily serves as cornerstones for commercialize our research after our graudation.
+In some sense, you, as a PhD student, are running a small startup company that focuses on a small nitch of a research field.
+Only have a R&amp;amp;D departmet in your company is not enough for a success enterpenue.
+The website serves as a front page of your company while the repository is the demo of the products.
+At the end of the day, you can both selling your research as products as well as promoting yourself as a company.
+So, for the next a few posting, I will introduce the common tools for self-publishing and help you get up-to-speed with this fast train.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Hosting GitHub Repo on Netlify</title>

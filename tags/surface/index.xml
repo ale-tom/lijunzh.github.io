@@ -2,12 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Surface on Lijun Zhu</title>
-    <link>https://lijunzh.github.io/tags/surface/index.xml</link>
+    <link>https://lijunzh.github.io/tags/surface/</link>
     <description>Recent content in Surface on Lijun Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Lijun Zhu</copyright>
-    <atom:link href="/tags/surface/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Mar 2017 16:17:13 -0400</lastBuildDate>
+    <atom:link href="/tags/surface/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>RANSAC-based Arrival Time Event Clustering (RATEC)</title>
