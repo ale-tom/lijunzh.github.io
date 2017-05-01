@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Lijun Zhu</title>
-    <link>https://lijunzh.github.io/tags/hugo/</link>
+    <link>https://lijunzhu.info/tags/hugo/</link>
     <description>Recent content in Hugo on Lijun Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Start A Personal Website using Hugo (with customized domain and GitHub free hosting)</title>
-      <link>https://lijunzh.github.io/post/start-website-hugo/</link>
+      <link>https://lijunzhu.info/post/start-website-hugo/</link>
       <pubDate>Mon, 27 Mar 2017 11:14:35 -0400</pubDate>
       
-      <guid>https://lijunzh.github.io/post/start-website-hugo/</guid>
+      <guid>https://lijunzhu.info/post/start-website-hugo/</guid>
       <description>
 
 &lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents:&lt;/h2&gt;
@@ -115,7 +115,7 @@ tree -a
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;https://lijunzh.github.io/img/post/create_site.png&#34; /&gt;
+        &lt;img src=&#34;https://lijunzhu.info/img/post/create_site.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -128,7 +128,7 @@ tree -a
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;https://lijunzh.github.io/img/post/tree_a.png&#34; /&gt;
+        &lt;img src=&#34;https://lijunzhu.info/img/post/tree_a.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -166,7 +166,7 @@ hugo server -w
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;https://lijunzh.github.io/img/post/academic_template.png&#34; /&gt;
+        &lt;img src=&#34;https://lijunzhu.info/img/post/academic_template.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -180,14 +180,14 @@ hugo server -w
 &lt;h3 id=&#34;adding-contents&#34;&gt;Adding contents.&lt;/h3&gt;
 
 &lt;p&gt;Now you can start the real work of creating website: adding content.
-Markdown language is assumed in this framework and there is a &lt;a href=&#34;https://lijunzh.github.io/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;nice Markdown tutorial&lt;/a&gt; on Markdown syntax in the default post along with template.
-To better organize your content, you can check out this &lt;a href=&#34;https://lijunzh.github.io/post/managing-content/&#34; target=&#34;_blank&#34;&gt;content managing tutorial&lt;/a&gt;.
+Markdown language is assumed in this framework and there is a &lt;a href=&#34;https://lijunzhu.info/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;nice Markdown tutorial&lt;/a&gt; on Markdown syntax in the default post along with template.
+To better organize your content, you can check out this &lt;a href=&#34;https://lijunzhu.info/post/managing-content/&#34; target=&#34;_blank&#34;&gt;content managing tutorial&lt;/a&gt;.
 After update the &amp;ldquo;/content&amp;rdquo; directory with your own information, here is what you can expect:&lt;/p&gt;
 
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;https://lijunzh.github.io/img/post/academic_lijun.png&#34; /&gt;
+        &lt;img src=&#34;https://lijunzhu.info/img/post/academic_lijun.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -275,10 +275,10 @@ In that case, a custom domain is right for you.&lt;/p&gt;
     
     <item>
       <title>Getting started with the Academic framework for Hugo</title>
-      <link>https://lijunzh.github.io/post/getting-started/</link>
+      <link>https://lijunzhu.info/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
       
-      <guid>https://lijunzh.github.io/post/getting-started/</guid>
+      <guid>https://lijunzhu.info/post/getting-started/</guid>
       <description>
 
 &lt;p&gt;The Academic framework enables you to easily create a beautifully simple personal or academic website using the &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; static site generator.&lt;/p&gt;
@@ -289,7 +289,7 @@ In that case, a custom domain is right for you.&lt;/p&gt;
 &lt;li&gt;Easily manage your homepage, blog posts, publications, talks, and projects&lt;/li&gt;
 &lt;li&gt;Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact&lt;/li&gt;
 &lt;li&gt;Need a different section? Just use the Custom widget!&lt;/li&gt;
-&lt;li&gt;Write in &lt;a href=&#34;https://lijunzh.github.io/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
+&lt;li&gt;Write in &lt;a href=&#34;https://lijunzhu.info/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
 &lt;li&gt;Social/academic network linking, &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, and &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; comments&lt;/li&gt;
 &lt;li&gt;Responsive and mobile friendly&lt;/li&gt;
 &lt;li&gt;Simple and refreshing one page design&lt;/li&gt;
@@ -353,15 +353,15 @@ cd my_website
 
 &lt;h3 id=&#34;customize-the-homepage&#34;&gt;Customize the homepage&lt;/h3&gt;
 
-&lt;p&gt;Refer to our guide on using &lt;a href=&#34;https://lijunzh.github.io/post/widgets/&#34; target=&#34;_blank&#34;&gt;widgets&lt;/a&gt; to customize your homepage.&lt;/p&gt;
+&lt;p&gt;Refer to our guide on using &lt;a href=&#34;https://lijunzhu.info/post/widgets/&#34; target=&#34;_blank&#34;&gt;widgets&lt;/a&gt; to customize your homepage.&lt;/p&gt;
 
 &lt;h3 id=&#34;add-your-content&#34;&gt;Add your content&lt;/h3&gt;
 
-&lt;p&gt;Refer to our guide on &lt;a href=&#34;https://lijunzh.github.io/post/managing-content/&#34; target=&#34;_blank&#34;&gt;managing content&lt;/a&gt; to create your own publications, blog posts, talks, and projects.&lt;/p&gt;
+&lt;p&gt;Refer to our guide on &lt;a href=&#34;https://lijunzhu.info/post/managing-content/&#34; target=&#34;_blank&#34;&gt;managing content&lt;/a&gt; to create your own publications, blog posts, talks, and projects.&lt;/p&gt;
 
 &lt;h3 id=&#34;remove-unused-widgets-and-pages&#34;&gt;Remove unused widgets and pages&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://lijunzh.github.io/post/managing-content/#removing-content&#34; target=&#34;_blank&#34;&gt;How to remove unused widgets and content pages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://lijunzhu.info/post/managing-content/#removing-content&#34; target=&#34;_blank&#34;&gt;How to remove unused widgets and content pages&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;customization-upgrading&#34;&gt;Customization &amp;amp; Upgrading&lt;/h3&gt;
 
@@ -465,13 +465,13 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
     
     <item>
       <title>Migrate from Jekyll to Hugo</title>
-      <link>https://lijunzh.github.io/post/migrate-from-jekyll/</link>
+      <link>https://lijunzhu.info/post/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://lijunzh.github.io/post/migrate-from-jekyll/</guid>
+      <guid>https://lijunzhu.info/post/migrate-from-jekyll/</guid>
       <description>
 
-&lt;p&gt;Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s &lt;a href=&#34;https://lijunzh.github.io/post/getting-started/&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s &lt;a href=&#34;https://lijunzhu.info/post/getting-started/&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
 

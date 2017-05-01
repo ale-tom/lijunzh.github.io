@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3 on Lijun Zhu</title>
-    <link>https://lijunzh.github.io/publication_types/3/</link>
+    <link>https://lijunzhu.info/publication_types/3/</link>
     <description>Recent content in 3 on Lijun Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>A multi-channel approach for automatic microseismic event localization using RANSAC-based arrival time event clustering (RATEC)</title>
-      <link>https://lijunzh.github.io/publication/ratec-gp/</link>
+      <link>https://lijunzhu.info/publication/ratec-gp/</link>
       <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://lijunzh.github.io/publication/ratec-gp/</guid>
+      <guid>https://lijunzhu.info/publication/ratec-gp/</guid>
       <description></description>
     </item>
     

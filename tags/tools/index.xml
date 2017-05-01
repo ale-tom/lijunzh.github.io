@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools on Lijun Zhu</title>
-    <link>https://lijunzh.github.io/tags/tools/</link>
+    <link>https://lijunzhu.info/tags/tools/</link>
     <description>Recent content in Tools on Lijun Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Web 2.0 for Researchers</title>
-      <link>https://lijunzh.github.io/post/web-2-0-for-researchers/</link>
+      <link>https://lijunzhu.info/post/web-2-0-for-researchers/</link>
       <pubDate>Wed, 05 Apr 2017 06:22:04 -0400</pubDate>
       
-      <guid>https://lijunzh.github.io/post/web-2-0-for-researchers/</guid>
+      <guid>https://lijunzhu.info/post/web-2-0-for-researchers/</guid>
       <description>
 
 &lt;h1 id=&#34;motivation&#34;&gt;Motivation&lt;/h1&gt;
@@ -131,14 +131,14 @@ So, for the next a few posting, I will introduce the common tools for self-publi
     
     <item>
       <title>Hosting GitHub Repo on Netlify</title>
-      <link>https://lijunzh.github.io/post/host-netlify/</link>
+      <link>https://lijunzhu.info/post/host-netlify/</link>
       <pubDate>Tue, 28 Mar 2017 18:23:05 -0400</pubDate>
       
-      <guid>https://lijunzh.github.io/post/host-netlify/</guid>
-      <description>&lt;p&gt;After &lt;a href=&#34;https://lijunzh.github.io/post/start-website-hugo/&#34; target=&#34;_blank&#34;&gt;posting&lt;/a&gt; about create and hosting personal website using Hugo + GitHub Page, I couldn&amp;rsquo;t get off the fact that my custom domain does not have HTTPS support.
+      <guid>https://lijunzhu.info/post/host-netlify/</guid>
+      <description>&lt;p&gt;After &lt;a href=&#34;https://lijunzhu.info/post/start-website-hugo/&#34; target=&#34;_blank&#34;&gt;posting&lt;/a&gt; about create and hosting personal website using Hugo + GitHub Page, I couldn&amp;rsquo;t get off the fact that my custom domain does not have HTTPS support.
 Finally, I decided to figure it out.&lt;/p&gt;
 
-&lt;p&gt;The first &lt;a href=&#34;https://lijunzh.github.io/post/start-website-hugo/#acquire-a-custom-domain&#34; target=&#34;_blank&#34;&gt;partial workaround&lt;/a&gt; I found was based on &lt;a href=&#34;https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/&#34; target=&#34;_blank&#34;&gt;CloudFlare&lt;/a&gt;.
+&lt;p&gt;The first &lt;a href=&#34;https://lijunzhu.info/post/start-website-hugo/#acquire-a-custom-domain&#34; target=&#34;_blank&#34;&gt;partial workaround&lt;/a&gt; I found was based on &lt;a href=&#34;https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/&#34; target=&#34;_blank&#34;&gt;CloudFlare&lt;/a&gt;.
 Basically, it replace DNS server by this CloudFlare which can add a certificate to all traffic going through it.
 However, there is no guarantee for the traffic between GitHub and CloudFlare which makes it less secure.
 Even more importantly, some browser will mark it as insecure (Chrome does, Firefox and Safari was OK) which repels people from reading my website.&lt;/p&gt;
@@ -151,7 +151,7 @@ More importantly, it connects with GitHub and retrieve repo info automatically f
 I can still use the lijunzh.github.io repo and simply switch the host from github.io to netlify.com.
 You can check out my configure on Netlify below:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://lijunzh.github.io/img/post/netlify-config.png&#34; alt=&#34;netlify-config&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lijunzhu.info/img/post/netlify-config.png&#34; alt=&#34;netlify-config&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;By the way, all these take is a &lt;a href=&#34;https://www.netlify.com/tags/pricing/&#34; target=&#34;_blank&#34;&gt;free netlify plan&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -159,10 +159,10 @@ You can check out my configure on Netlify below:&lt;/p&gt;
     
     <item>
       <title>Start A Personal Website using Hugo (with customized domain and GitHub free hosting)</title>
-      <link>https://lijunzh.github.io/post/start-website-hugo/</link>
+      <link>https://lijunzhu.info/post/start-website-hugo/</link>
       <pubDate>Mon, 27 Mar 2017 11:14:35 -0400</pubDate>
       
-      <guid>https://lijunzh.github.io/post/start-website-hugo/</guid>
+      <guid>https://lijunzhu.info/post/start-website-hugo/</guid>
       <description>
 
 &lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents:&lt;/h2&gt;
@@ -262,7 +262,7 @@ tree -a
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;https://lijunzh.github.io/img/post/create_site.png&#34; /&gt;
+        &lt;img src=&#34;https://lijunzhu.info/img/post/create_site.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -275,7 +275,7 @@ tree -a
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;https://lijunzh.github.io/img/post/tree_a.png&#34; /&gt;
+        &lt;img src=&#34;https://lijunzhu.info/img/post/tree_a.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -313,7 +313,7 @@ hugo server -w
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;https://lijunzh.github.io/img/post/academic_template.png&#34; /&gt;
+        &lt;img src=&#34;https://lijunzhu.info/img/post/academic_template.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -327,14 +327,14 @@ hugo server -w
 &lt;h3 id=&#34;adding-contents&#34;&gt;Adding contents.&lt;/h3&gt;
 
 &lt;p&gt;Now you can start the real work of creating website: adding content.
-Markdown language is assumed in this framework and there is a &lt;a href=&#34;https://lijunzh.github.io/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;nice Markdown tutorial&lt;/a&gt; on Markdown syntax in the default post along with template.
-To better organize your content, you can check out this &lt;a href=&#34;https://lijunzh.github.io/post/managing-content/&#34; target=&#34;_blank&#34;&gt;content managing tutorial&lt;/a&gt;.
+Markdown language is assumed in this framework and there is a &lt;a href=&#34;https://lijunzhu.info/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;nice Markdown tutorial&lt;/a&gt; on Markdown syntax in the default post along with template.
+To better organize your content, you can check out this &lt;a href=&#34;https://lijunzhu.info/post/managing-content/&#34; target=&#34;_blank&#34;&gt;content managing tutorial&lt;/a&gt;.
 After update the &amp;ldquo;/content&amp;rdquo; directory with your own information, here is what you can expect:&lt;/p&gt;
 
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;https://lijunzh.github.io/img/post/academic_lijun.png&#34; /&gt;
+        &lt;img src=&#34;https://lijunzhu.info/img/post/academic_lijun.png&#34; /&gt;
     
     
     &lt;figcaption&gt;

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Utilities on Lijun Zhu</title>
-    <link>https://lijunzh.github.io/tags/utilities/</link>
+    <link>https://lijunzhu.info/tags/utilities/</link>
     <description>Recent content in Utilities on Lijun Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Record Screen on Mac with Internal Audio</title>
-      <link>https://lijunzh.github.io/post/screen-record-audio/</link>
+      <link>https://lijunzhu.info/post/screen-record-audio/</link>
       <pubDate>Tue, 28 Mar 2017 12:05:29 -0400</pubDate>
       
-      <guid>https://lijunzh.github.io/post/screen-record-audio/</guid>
+      <guid>https://lijunzhu.info/post/screen-record-audio/</guid>
       <description>
 
 &lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
@@ -34,7 +34,7 @@ Once installed, you should see two additional devices under &amp;ldquo;Audio MID
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;https://lijunzh.github.io/img/post/audio-midi.png&#34; /&gt;
+        &lt;img src=&#34;https://lijunzhu.info/img/post/audio-midi.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -51,13 +51,13 @@ Once installed, you should see two additional devices under &amp;ldquo;Audio MID
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Change system audio output to &amp;ldquo;Soundflower (2ch)&amp;rdquo;
-&lt;img src=&#34;https://lijunzh.github.io/img/post/system-audio-output.png&#34; alt=&#34;change system audo output&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;img src=&#34;https://lijunzhu.info/img/post/system-audio-output.png&#34; alt=&#34;change system audo output&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Start screen recording in QuickTime
-&lt;img src=&#34;https://lijunzh.github.io/img/post/quicktime-screen-record.png&#34; alt=&#34;start record screen in QuickTime&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;img src=&#34;https://lijunzhu.info/img/post/quicktime-screen-record.png&#34; alt=&#34;start record screen in QuickTime&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Change audio input to &amp;ldquo;Soundflower (2ch)&amp;rdquo;
-&lt;img src=&#34;https://lijunzh.github.io/img/post/quicktime-audio-input.png&#34; alt=&#34;change audio innput&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;img src=&#34;https://lijunzhu.info/img/post/quicktime-audio-input.png&#34; alt=&#34;change audio innput&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;multi-ouput&#34;&gt;Multi-Ouput&lt;/h2&gt;
@@ -65,7 +65,7 @@ Once installed, you should see two additional devices under &amp;ldquo;Audio MID
 &lt;p&gt;Using the previous method, there will be no aduio output to the system speakers which can be inconvenient some time.
 By adding a &amp;ldquo;Multi-Output&amp;rdquo; device in &amp;ldquo;Audio MIDI Setup&amp;rdquo; as shwon below, you can have both the internal speaker and recording audio output working at the same time.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://lijunzh.github.io/img/post/multi-output.png&#34; alt=&#34;multi-output&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lijunzhu.info/img/post/multi-output.png&#34; alt=&#34;multi-output&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Remember to select the Multi-Ouput device in the system audio output before you start to record.&lt;/p&gt;
 </description>

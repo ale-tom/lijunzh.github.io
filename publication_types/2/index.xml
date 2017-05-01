@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 on Lijun Zhu</title>
-    <link>https://lijunzh.github.io/publication_types/2/</link>
+    <link>https://lijunzhu.info/publication_types/2/</link>
     <description>Recent content in 2 on Lijun Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Microseismic events enhancement and detection in sensor arrays using autocorrelation based filtering</title>
-      <link>https://lijunzh.github.io/publication/autocorr-gp/</link>
+      <link>https://lijunzhu.info/publication/autocorr-gp/</link>
       <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://lijunzh.github.io/publication/autocorr-gp/</guid>
+      <guid>https://lijunzhu.info/publication/autocorr-gp/</guid>
       <description></description>
     </item>
     

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lijun Zhu on Lijun Zhu</title>
-    <link>https://lijunzh.github.io/</link>
+    <link>https://lijunzhu.info/</link>
     <description>Recent content in Lijun Zhu on Lijun Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,28 +12,28 @@
     
     <item>
       <title>Weighted Random Sampling in Seismic Event Detection/Location (WRASED): Applications to Local, Regional, and Global Seismic Networks</title>
-      <link>https://lijunzh.github.io/talk/ratec-ssa2017/</link>
+      <link>https://lijunzhu.info/talk/ratec-ssa2017/</link>
       <pubDate>Wed, 19 Apr 2017 16:45:00 -0600</pubDate>
       
-      <guid>https://lijunzh.github.io/talk/ratec-ssa2017/</guid>
+      <guid>https://lijunzhu.info/talk/ratec-ssa2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Weighted Random Sampling in Seismic Event Detection/Location (WRASED): Applications to Local, Regional, and Global Seismic Networks</title>
-      <link>https://lijunzh.github.io/publication/ratec-ssa2017/</link>
+      <link>https://lijunzhu.info/publication/ratec-ssa2017/</link>
       <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://lijunzh.github.io/publication/ratec-ssa2017/</guid>
+      <guid>https://lijunzhu.info/publication/ratec-ssa2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web 2.0 for Researchers</title>
-      <link>https://lijunzh.github.io/post/web-2-0-for-researchers/</link>
+      <link>https://lijunzhu.info/post/web-2-0-for-researchers/</link>
       <pubDate>Wed, 05 Apr 2017 06:22:04 -0400</pubDate>
       
-      <guid>https://lijunzh.github.io/post/web-2-0-for-researchers/</guid>
+      <guid>https://lijunzhu.info/post/web-2-0-for-researchers/</guid>
       <description>
 
 &lt;h1 id=&#34;motivation&#34;&gt;Motivation&lt;/h1&gt;
@@ -149,14 +149,14 @@ So, for the next a few posting, I will introduce the common tools for self-publi
     
     <item>
       <title>Hosting GitHub Repo on Netlify</title>
-      <link>https://lijunzh.github.io/post/host-netlify/</link>
+      <link>https://lijunzhu.info/post/host-netlify/</link>
       <pubDate>Tue, 28 Mar 2017 18:23:05 -0400</pubDate>
       
-      <guid>https://lijunzh.github.io/post/host-netlify/</guid>
-      <description>&lt;p&gt;After &lt;a href=&#34;https://lijunzh.github.io/post/start-website-hugo/&#34; target=&#34;_blank&#34;&gt;posting&lt;/a&gt; about create and hosting personal website using Hugo + GitHub Page, I couldn&amp;rsquo;t get off the fact that my custom domain does not have HTTPS support.
+      <guid>https://lijunzhu.info/post/host-netlify/</guid>
+      <description>&lt;p&gt;After &lt;a href=&#34;https://lijunzhu.info/post/start-website-hugo/&#34; target=&#34;_blank&#34;&gt;posting&lt;/a&gt; about create and hosting personal website using Hugo + GitHub Page, I couldn&amp;rsquo;t get off the fact that my custom domain does not have HTTPS support.
 Finally, I decided to figure it out.&lt;/p&gt;
 
-&lt;p&gt;The first &lt;a href=&#34;https://lijunzh.github.io/post/start-website-hugo/#acquire-a-custom-domain&#34; target=&#34;_blank&#34;&gt;partial workaround&lt;/a&gt; I found was based on &lt;a href=&#34;https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/&#34; target=&#34;_blank&#34;&gt;CloudFlare&lt;/a&gt;.
+&lt;p&gt;The first &lt;a href=&#34;https://lijunzhu.info/post/start-website-hugo/#acquire-a-custom-domain&#34; target=&#34;_blank&#34;&gt;partial workaround&lt;/a&gt; I found was based on &lt;a href=&#34;https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/&#34; target=&#34;_blank&#34;&gt;CloudFlare&lt;/a&gt;.
 Basically, it replace DNS server by this CloudFlare which can add a certificate to all traffic going through it.
 However, there is no guarantee for the traffic between GitHub and CloudFlare which makes it less secure.
 Even more importantly, some browser will mark it as insecure (Chrome does, Firefox and Safari was OK) which repels people from reading my website.&lt;/p&gt;
@@ -169,7 +169,7 @@ More importantly, it connects with GitHub and retrieve repo info automatically f
 I can still use the lijunzh.github.io repo and simply switch the host from github.io to netlify.com.
 You can check out my configure on Netlify below:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://lijunzh.github.io/img/post/netlify-config.png&#34; alt=&#34;netlify-config&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lijunzhu.info/img/post/netlify-config.png&#34; alt=&#34;netlify-config&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;By the way, all these take is a &lt;a href=&#34;https://www.netlify.com/tags/pricing/&#34; target=&#34;_blank&#34;&gt;free netlify plan&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -177,10 +177,10 @@ You can check out my configure on Netlify below:&lt;/p&gt;
     
     <item>
       <title>Record Screen on Mac with Internal Audio</title>
-      <link>https://lijunzh.github.io/post/screen-record-audio/</link>
+      <link>https://lijunzhu.info/post/screen-record-audio/</link>
       <pubDate>Tue, 28 Mar 2017 12:05:29 -0400</pubDate>
       
-      <guid>https://lijunzh.github.io/post/screen-record-audio/</guid>
+      <guid>https://lijunzhu.info/post/screen-record-audio/</guid>
       <description>
 
 &lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
@@ -199,7 +199,7 @@ Once installed, you should see two additional devices under &amp;ldquo;Audio MID
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;https://lijunzh.github.io/img/post/audio-midi.png&#34; /&gt;
+        &lt;img src=&#34;https://lijunzhu.info/img/post/audio-midi.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -216,13 +216,13 @@ Once installed, you should see two additional devices under &amp;ldquo;Audio MID
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Change system audio output to &amp;ldquo;Soundflower (2ch)&amp;rdquo;
-&lt;img src=&#34;https://lijunzh.github.io/img/post/system-audio-output.png&#34; alt=&#34;change system audo output&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;img src=&#34;https://lijunzhu.info/img/post/system-audio-output.png&#34; alt=&#34;change system audo output&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Start screen recording in QuickTime
-&lt;img src=&#34;https://lijunzh.github.io/img/post/quicktime-screen-record.png&#34; alt=&#34;start record screen in QuickTime&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;img src=&#34;https://lijunzhu.info/img/post/quicktime-screen-record.png&#34; alt=&#34;start record screen in QuickTime&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Change audio input to &amp;ldquo;Soundflower (2ch)&amp;rdquo;
-&lt;img src=&#34;https://lijunzh.github.io/img/post/quicktime-audio-input.png&#34; alt=&#34;change audio innput&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;img src=&#34;https://lijunzhu.info/img/post/quicktime-audio-input.png&#34; alt=&#34;change audio innput&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;multi-ouput&#34;&gt;Multi-Ouput&lt;/h2&gt;
@@ -230,7 +230,7 @@ Once installed, you should see two additional devices under &amp;ldquo;Audio MID
 &lt;p&gt;Using the previous method, there will be no aduio output to the system speakers which can be inconvenient some time.
 By adding a &amp;ldquo;Multi-Output&amp;rdquo; device in &amp;ldquo;Audio MIDI Setup&amp;rdquo; as shwon below, you can have both the internal speaker and recording audio output working at the same time.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://lijunzh.github.io/img/post/multi-output.png&#34; alt=&#34;multi-output&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lijunzhu.info/img/post/multi-output.png&#34; alt=&#34;multi-output&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Remember to select the Multi-Ouput device in the system audio output before you start to record.&lt;/p&gt;
 </description>
@@ -238,10 +238,10 @@ By adding a &amp;ldquo;Multi-Output&amp;rdquo; device in &amp;ldquo;Audio MIDI S
     
     <item>
       <title>Start A Personal Website using Hugo (with customized domain and GitHub free hosting)</title>
-      <link>https://lijunzh.github.io/post/start-website-hugo/</link>
+      <link>https://lijunzhu.info/post/start-website-hugo/</link>
       <pubDate>Mon, 27 Mar 2017 11:14:35 -0400</pubDate>
       
-      <guid>https://lijunzh.github.io/post/start-website-hugo/</guid>
+      <guid>https://lijunzhu.info/post/start-website-hugo/</guid>
       <description>
 
 &lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents:&lt;/h2&gt;
@@ -341,7 +341,7 @@ tree -a
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;https://lijunzh.github.io/img/post/create_site.png&#34; /&gt;
+        &lt;img src=&#34;https://lijunzhu.info/img/post/create_site.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -354,7 +354,7 @@ tree -a
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;https://lijunzh.github.io/img/post/tree_a.png&#34; /&gt;
+        &lt;img src=&#34;https://lijunzhu.info/img/post/tree_a.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -392,7 +392,7 @@ hugo server -w
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;https://lijunzh.github.io/img/post/academic_template.png&#34; /&gt;
+        &lt;img src=&#34;https://lijunzhu.info/img/post/academic_template.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -406,14 +406,14 @@ hugo server -w
 &lt;h3 id=&#34;adding-contents&#34;&gt;Adding contents.&lt;/h3&gt;
 
 &lt;p&gt;Now you can start the real work of creating website: adding content.
-Markdown language is assumed in this framework and there is a &lt;a href=&#34;https://lijunzh.github.io/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;nice Markdown tutorial&lt;/a&gt; on Markdown syntax in the default post along with template.
-To better organize your content, you can check out this &lt;a href=&#34;https://lijunzh.github.io/post/managing-content/&#34; target=&#34;_blank&#34;&gt;content managing tutorial&lt;/a&gt;.
+Markdown language is assumed in this framework and there is a &lt;a href=&#34;https://lijunzhu.info/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;nice Markdown tutorial&lt;/a&gt; on Markdown syntax in the default post along with template.
+To better organize your content, you can check out this &lt;a href=&#34;https://lijunzhu.info/post/managing-content/&#34; target=&#34;_blank&#34;&gt;content managing tutorial&lt;/a&gt;.
 After update the &amp;ldquo;/content&amp;rdquo; directory with your own information, here is what you can expect:&lt;/p&gt;
 
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;https://lijunzh.github.io/img/post/academic_lijun.png&#34; /&gt;
+        &lt;img src=&#34;https://lijunzhu.info/img/post/academic_lijun.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -501,64 +501,64 @@ In that case, a custom domain is right for you.&lt;/p&gt;
     
     <item>
       <title>RANSAC-based Arrival Time Event Clustering (RATEC)</title>
-      <link>https://lijunzh.github.io/project/random-sampling/</link>
+      <link>https://lijunzhu.info/project/random-sampling/</link>
       <pubDate>Fri, 24 Mar 2017 16:17:13 -0400</pubDate>
       
-      <guid>https://lijunzh.github.io/project/random-sampling/</guid>
+      <guid>https://lijunzhu.info/project/random-sampling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A multi-channel approach for automatic microseismic event localization using RANSAC-based arrival time event clustering (RATEC)</title>
-      <link>https://lijunzh.github.io/publication/ratec-gp/</link>
+      <link>https://lijunzhu.info/publication/ratec-gp/</link>
       <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://lijunzh.github.io/publication/ratec-gp/</guid>
+      <guid>https://lijunzhu.info/publication/ratec-gp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Microseismic events enhancement and detection in sensor arrays using autocorrelation based filtering</title>
-      <link>https://lijunzh.github.io/publication/autocorr-gp/</link>
+      <link>https://lijunzhu.info/publication/autocorr-gp/</link>
       <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://lijunzh.github.io/publication/autocorr-gp/</guid>
+      <guid>https://lijunzhu.info/publication/autocorr-gp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An automatic arrival time picking method based on RANSAC curve fitting</title>
-      <link>https://lijunzh.github.io/talk/ransac-eage2016/</link>
+      <link>https://lijunzhu.info/talk/ransac-eage2016/</link>
       <pubDate>Thu, 02 Jun 2016 09:20:00 +0100</pubDate>
       
-      <guid>https://lijunzh.github.io/talk/ransac-eage2016/</guid>
+      <guid>https://lijunzhu.info/talk/ransac-eage2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An automatic arrival time picking method based on RANSAC curve fitting</title>
-      <link>https://lijunzh.github.io/publication/ransac-eage2016/</link>
+      <link>https://lijunzhu.info/publication/ransac-eage2016/</link>
       <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://lijunzh.github.io/publication/ransac-eage2016/</guid>
+      <guid>https://lijunzhu.info/publication/ransac-eage2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Microseismic events enhancement in sensor arrays using autocorrelation based filtering</title>
-      <link>https://lijunzh.github.io/publication/autocorr-eage2016/</link>
+      <link>https://lijunzhu.info/publication/autocorr-eage2016/</link>
       <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://lijunzh.github.io/publication/autocorr-eage2016/</guid>
+      <guid>https://lijunzhu.info/publication/autocorr-eage2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Getting started with the Academic framework for Hugo</title>
-      <link>https://lijunzh.github.io/post/getting-started/</link>
+      <link>https://lijunzhu.info/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
       
-      <guid>https://lijunzh.github.io/post/getting-started/</guid>
+      <guid>https://lijunzhu.info/post/getting-started/</guid>
       <description>
 
 &lt;p&gt;The Academic framework enables you to easily create a beautifully simple personal or academic website using the &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; static site generator.&lt;/p&gt;
@@ -569,7 +569,7 @@ In that case, a custom domain is right for you.&lt;/p&gt;
 &lt;li&gt;Easily manage your homepage, blog posts, publications, talks, and projects&lt;/li&gt;
 &lt;li&gt;Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact&lt;/li&gt;
 &lt;li&gt;Need a different section? Just use the Custom widget!&lt;/li&gt;
-&lt;li&gt;Write in &lt;a href=&#34;https://lijunzh.github.io/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
+&lt;li&gt;Write in &lt;a href=&#34;https://lijunzhu.info/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
 &lt;li&gt;Social/academic network linking, &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, and &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; comments&lt;/li&gt;
 &lt;li&gt;Responsive and mobile friendly&lt;/li&gt;
 &lt;li&gt;Simple and refreshing one page design&lt;/li&gt;
@@ -633,15 +633,15 @@ cd my_website
 
 &lt;h3 id=&#34;customize-the-homepage&#34;&gt;Customize the homepage&lt;/h3&gt;
 
-&lt;p&gt;Refer to our guide on using &lt;a href=&#34;https://lijunzh.github.io/post/widgets/&#34; target=&#34;_blank&#34;&gt;widgets&lt;/a&gt; to customize your homepage.&lt;/p&gt;
+&lt;p&gt;Refer to our guide on using &lt;a href=&#34;https://lijunzhu.info/post/widgets/&#34; target=&#34;_blank&#34;&gt;widgets&lt;/a&gt; to customize your homepage.&lt;/p&gt;
 
 &lt;h3 id=&#34;add-your-content&#34;&gt;Add your content&lt;/h3&gt;
 
-&lt;p&gt;Refer to our guide on &lt;a href=&#34;https://lijunzh.github.io/post/managing-content/&#34; target=&#34;_blank&#34;&gt;managing content&lt;/a&gt; to create your own publications, blog posts, talks, and projects.&lt;/p&gt;
+&lt;p&gt;Refer to our guide on &lt;a href=&#34;https://lijunzhu.info/post/managing-content/&#34; target=&#34;_blank&#34;&gt;managing content&lt;/a&gt; to create your own publications, blog posts, talks, and projects.&lt;/p&gt;
 
 &lt;h3 id=&#34;remove-unused-widgets-and-pages&#34;&gt;Remove unused widgets and pages&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://lijunzh.github.io/post/managing-content/#removing-content&#34; target=&#34;_blank&#34;&gt;How to remove unused widgets and content pages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://lijunzhu.info/post/managing-content/#removing-content&#34; target=&#34;_blank&#34;&gt;How to remove unused widgets and content pages&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;customization-upgrading&#34;&gt;Customization &amp;amp; Upgrading&lt;/h3&gt;
 
@@ -745,10 +745,10 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
     
     <item>
       <title>Customizing the homepage with widgets</title>
-      <link>https://lijunzh.github.io/post/widgets/</link>
+      <link>https://lijunzhu.info/post/widgets/</link>
       <pubDate>Wed, 20 Apr 2016 11:00:00 +0000</pubDate>
       
-      <guid>https://lijunzh.github.io/post/widgets/</guid>
+      <guid>https://lijunzhu.info/post/widgets/</guid>
       <description>
 
 &lt;p&gt;Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:&lt;/p&gt;
@@ -811,15 +811,15 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
     
     <item>
       <title>Managing content</title>
-      <link>https://lijunzh.github.io/post/managing-content/</link>
+      <link>https://lijunzhu.info/post/managing-content/</link>
       <pubDate>Wed, 20 Apr 2016 11:00:00 +0000</pubDate>
       
-      <guid>https://lijunzh.github.io/post/managing-content/</guid>
-      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;https://lijunzh.github.io/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;
+      <guid>https://lijunzhu.info/post/managing-content/</guid>
+      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;https://lijunzhu.info/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;To enable LaTeX math rendering for a page, you should include &lt;code&gt;math = true&lt;/code&gt; in the page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble, as demonstrated in the included example site. Otherwise, to enable math on the homepage or for all pages, you must globally set &lt;code&gt;math = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;To disable source code highlighting by default for all pages, set &lt;code&gt;highlight = false&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. You can then enable source code highlighting only on pages that need it by setting &lt;code&gt;highlight = true&lt;/code&gt; in that page&amp;rsquo;s preamble. See the &lt;a href=&#34;https://lijunzh.github.io/post/writing-markdown-latex/#code-highlighting&#34; target=&#34;_blank&#34;&gt;code-highlighting docs&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt;To disable source code highlighting by default for all pages, set &lt;code&gt;highlight = false&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. You can then enable source code highlighting only on pages that need it by setting &lt;code&gt;highlight = true&lt;/code&gt; in that page&amp;rsquo;s preamble. See the &lt;a href=&#34;https://lijunzhu.info/post/writing-markdown-latex/#code-highlighting&#34; target=&#34;_blank&#34;&gt;code-highlighting docs&lt;/a&gt; for more details.&lt;/p&gt;
 
 &lt;p&gt;To display a featured image in content page headers, the parameters below can be inserted towards the end of a page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble. It is assumed that the image is located in your &lt;code&gt;static/img/&lt;/code&gt; folder, so the full path in the example below will be &lt;code&gt;static/img/headers/getting-started.png&lt;/code&gt;. The &lt;code&gt;caption&lt;/code&gt; parameter can be used to write an image caption or credit.&lt;/p&gt;
 
