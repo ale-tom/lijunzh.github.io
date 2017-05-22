@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.21-DEV" />
+  <meta name="generator" content="Hugo 0.20.7" />
   <meta name="author" content="Lijun Zhu">
   <meta name="description" content="PhD student in Electrical Engineering">
 
@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/academicons.min.css">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
   <link rel="stylesheet" href="/css/hugo-academic.css">
   
 
@@ -136,6 +136,8 @@
 
         
         
+
+        
       </ul>
 
     </div>
@@ -156,54 +158,63 @@
 
 
 
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-telephone person-address">
   <div class="col-xs-12 col-md-4">
     <div id="profile">
 
       
-      <div class="portrait" itemprop="image"
-           style="background-image: url('/img/lijun.jpg');">
+      <div class="portrait" style="background-image: url('https://lijunzhu.infoimg/lijun.jpg');">
       </div>
+      <meta itemprop="image" content="https://lijunzhu.infoimg/lijun.jpg">
       
 
       <div class="portrait-title">
         <h2 itemprop="name">Lijun Zhu</h2>
         <h3 itemprop="jobTitle">PhD student in Electrical Engineering</h3>
         
-        <h3 itemprop="worksFor">
-          <a href="www.gatech.edu" target="_blank">
-          Georgia Institute of Technology
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          <a href="https://www.gatech.edu" target="_blank" itemprop="url">
+            <span itemprop="name">Georgia Institute of Technology</span>
           </a>
         </h3>
         
       </div>
 
+      <link itemprop="url" href="https://lijunzhu.info">
+
       <ul class="social-icon" aria-hidden="true">
         
         
         <li>
-          <a href="mailto:lijun.zhu@gatech.edu" target="_blank">
+          <a itemprop="sameAs" href="mailto:lijun.zhu@gatech.edu" target="_blank">
             <i class="fa fa-envelope big-icon"></i>
           </a>
         </li>
         
         
         <li>
-          <a href="https://scholar.google.com/citations?user=XUszLsgAAAAJ&amp;hl=en" target="_blank">
+          <a itemprop="sameAs" href="//twitter.com/lijun_zh" target="_blank">
+            <i class="fa fa-twitter big-icon"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a itemprop="sameAs" href="https://scholar.google.com/citations?user=XUszLsgAAAAJ&amp;hl=en" target="_blank">
             <i class="ai ai-google-scholar big-icon"></i>
           </a>
         </li>
         
         
         <li>
-          <a href="https://www.linkedin.com/in/lijun-zhu-88107b21/" target="_blank">
+          <a itemprop="sameAs" href="https://www.linkedin.com/in/lijun-zhu-88107b21/" target="_blank">
             <i class="fa fa-linkedin big-icon"></i>
           </a>
         </li>
         
         
         <li>
-          <a href="//github.com/lijunzh" target="_blank">
+          <a itemprop="sameAs" href="//github.com/lijunzh" target="_blank">
             <i class="fa fa-github big-icon"></i>
           </a>
         </li>
@@ -1135,12 +1146,12 @@ How to make an IMPACT on your community and the general public?
   <div class="col-xs-12 col-md-8">
     
 
-    <ul class="fa-ul">
+    <ul class="fa-ul" itemscope>
 
       
       <li>
         <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
-        <span><a href="mailto:lijun.zhu[at]gatech.edu">lijun.zhu[at]gatech.edu</a></span>
+        <span id="person-email" itemprop="email"><a href="mailto:lijun.zhu[at]gatech.edu">lijun.zhu[at]gatech.edu</a></span>
       </li>
       
 
@@ -1149,7 +1160,7 @@ How to make an IMPACT on your community and the general public?
       
       <li>
         <i class="fa-li fa fa-phone fa-2x" aria-hidden="true"></i>
-        <span><a href="tel:&#43;1%20%28404%29545-2619">&#43;1 (404)545-2619</a></span>
+        <span id="person-telephone" itemprop="telephone"><a href="tel:&#43;1%20%28404%29545-2619">&#43;1 (404)545-2619</a></span>
       </li>
       
 
@@ -1160,7 +1171,7 @@ How to make an IMPACT on your community and the general public?
       
       <li>
         <i class="fa-li fa fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span>75 Fifth Street NW, Office 5208, Georgia Institute of Technology, GA 30332, USA</span>
+        <span id="person-address" itemprop="address">75 Fifth Street NW, Office 5208, Georgia Institute of Technology, GA 30332, USA</span>
       </li>
       
 
