@@ -11,6 +11,37 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Write Scientific Paper in MS Word</title>
+      <link>https://lijunzhu.info/post/write_paper_in_word/</link>
+      <pubDate>Sat, 03 Jun 2017 14:36:14 -0400</pubDate>
+      
+      <guid>https://lijunzhu.info/post/write_paper_in_word/</guid>
+      <description>
+
+&lt;p&gt;Recently, I have to write some paper in MS Word which I haven&amp;rsquo;t used for some years and never used for scientific paper writing. Coming from the LaTex community, the two major challenge I have are&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Equation writing/numbering&lt;/li&gt;
+&lt;li&gt;Citation/reference generation&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here is the results of my recent experience.&lt;/p&gt;
+
+&lt;h3 id=&#34;equation-editing&#34;&gt;Equation Editing&lt;/h3&gt;
+
+&lt;p&gt;Although you can never compare equation editing in Word with the wonderful experience in LaTex, Word started to offer some &lt;a href=&#34;https://support.office.com/en-us/article/Write-insert-or-change-an-equation-1d01cabc-ceb1-458d-bc70-7f9737722702&#34; target=&#34;_blank&#34;&gt;basic tools&lt;/a&gt; to help you out.  There are limited built-in symbols and operators to choose from, but they are sufficient to write a paper light in equations. Although, the efficiency of creating those equations in Word is still no well close to LaTex.&lt;/p&gt;
+
+&lt;h3 id=&#34;equation-numbering&#34;&gt;Equation Numbering&lt;/h3&gt;
+
+&lt;p&gt;This &lt;a href=&#34;https://www.youtube.com/watch?v=9YGTH4WrY_8&#34; target=&#34;_blank&#34;&gt;youtube video&lt;/a&gt; gives a thorough tutorial on how to do equation numbering in Word. However, in Word 2016, you can add a number after equation by simply &lt;code&gt;#(1) + ENTER&lt;/code&gt; as pointed out by some comments under the video. Cross-reference of equation number was also covered by that video. You can add chapter/sectcion number to equation as well.&lt;/p&gt;
+
+&lt;h3 id=&#34;citation-reference&#34;&gt;Citation/reference&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://endnote.com&#34; target=&#34;_blank&#34;&gt;EndNote&lt;/a&gt; is truly the king of referencing for MS word. You can check out what it works in my reference library &lt;a href=&#34;https://github.com/lijunzh/ref#endnote-for-ms-word&#34; target=&#34;_blank&#34;&gt;repo README&lt;/a&gt;. If EndNote is not available for you, [Google Scholar] may be a free alternative though you have to manually change the style according to your journals requirements.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Web 2.0 for Researchers</title>
       <link>https://lijunzhu.info/post/web-2-0-for-researchers/</link>
       <pubDate>Wed, 05 Apr 2017 06:22:04 -0400</pubDate>
