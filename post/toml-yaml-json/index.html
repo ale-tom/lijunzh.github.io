@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.29" />
+  <meta name="generator" content="Hugo 0.30.2" />
   <meta name="author" content="Lijun Zhu">
   <meta name="description" content="PhD student in Electrical Engineering">
 
@@ -192,7 +192,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    4 min read
   </span>
   
 
@@ -261,6 +261,78 @@
 <p><a href="https://gohugohq.com/howto/toml-json-yaml-comparison/" target="_blank">This post</a> for hugo community did a good job in comparing these three formats and recommended toml for the config standard. Coincidentally, <a href="https://www.rust-lang.org/en-US/" target="_blank">Rust</a> community decided to use toml as [their choice for config file}(<a href="https://users.rust-lang.org/t/why-does-cargo-use-toml/3577" target="_blank">https://users.rust-lang.org/t/why-does-cargo-use-toml/3577</a>) (in Cargo) as well. Digging a little further to the standards of these formats, you will soon see that json being the more machine-friendly, toml being most human-friendly while yaml wanting to do both for which reason makes it the most complex standard among them. Since we only want this format to do very simple job as specify folder strucutre, simplicity is valued higher. Both json and toml is sufficient for the job. However, human-updating of json files is less enjoyable than that of toml. More importantly, the deal-breaker is the ability to comment in toml. Json is fast for machine, but we want to use to read and understand the folder strucutre directly by reading (cat) the meta file. Yaml can do both, yet, it is a over-kill for such simple job. The downside of toml is the fact that it is still young and keep changing every day. Yet, we have no intension to make a widely used and backward-compatible standard. Thus, flexibility wins over stability.</p>
 
 <p>I will contiue discuss how the format will look like in the future post.</p>
+
+<hr />
+
+<p>UPDATE 10-22-17
+After actual both json and toml in python, I realized too things:</p>
+
+<ol>
+<li><p>toml requires installzation of an additional package, e.g. <a href="https://pypi.python.org/pypi/toml" target="_blank">toml</a> while json package in built-in with python distribution.</p></li>
+
+<li><p>Python&rsquo;s json parser has a paramter called <code>indent</code> usig which makes json file much more readable.</p></li>
+</ol>
+
+<p>Although I still think toml is the better choice between these two format. The ability to include an object instead of python standard types is attractive, the standard stable package of json is very tampting for portable code. Since both library share similar syntax, I will go with json for now and wait until the toml standard stablize.</p>
+
+<p>More importantly, json is not that terrible in terms of readability. The indent parameter give the formating according to human eyes as follows:</p>
+
+<pre><code>If indent is a non-negative integer or string, then JSON array elements and object members will be pretty-printed with that indent level. An indent level of 0, negative, or &quot;&quot; will only insert newlines. None (the default) selects the most compact representation. Using a positive integer indent indents that many spaces per level. If indent is a string (such as &quot;\t&quot;), that string is used to indent each level.
+</code></pre>
+
+<p>Here is an example:</p>
+
+<pre><code> print(json.dumps({'a': 'test', 'b': [str(c) for c in list(range(20))]}))
+{&quot;a&quot;: &quot;test&quot;, &quot;b&quot;: [&quot;0&quot;, &quot;1&quot;, &quot;2&quot;, &quot;3&quot;, &quot;4&quot;, &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot;, &quot;9&quot;, &quot;10&quot;, &quot;11&quot;, &quot;12&quot;, &quot;13&quot;, &quot;14&quot;, &quot;15&quot;, &quot;16&quot;, &quot;17&quot;, &quot;18&quot;, &quot;19&quot;]}
+</code></pre>
+
+<p>becomes</p>
+
+<pre><code>print(json.dumps({'a': 'test', 'b': [str(c) for c in list(range(20))]}, indent = 4))
+{
+    &quot;a&quot;: &quot;test&quot;,
+    &quot;b&quot;: [
+        &quot;0&quot;,
+        &quot;1&quot;,
+        &quot;2&quot;,
+        &quot;3&quot;,
+        &quot;4&quot;,
+        &quot;5&quot;,
+        &quot;6&quot;,
+        &quot;7&quot;,
+        &quot;8&quot;,
+        &quot;9&quot;,
+        &quot;10&quot;,
+        &quot;11&quot;,
+        &quot;12&quot;,
+        &quot;13&quot;,
+        &quot;14&quot;,
+        &quot;15&quot;,
+        &quot;16&quot;,
+        &quot;17&quot;,
+        &quot;18&quot;,
+        &quot;19&quot;
+    ]
+}
+</code></pre>
+
+<p>The one without indent gives very compact output; however, if file size concerns you, other binary format may be better suited. Moreoever, an easy gzip will compress such text based file easily without lossing portability. This is the primary reason I did not choose a customized binary format in the first place.</p>
+
+<p>As an comparison, toml file of the above dictionary looks like following:</p>
+
+<pre><code>print(toml.dumps({'a': 'test', 'b': list(range(20))}))
+a = &quot;test&quot;
+b = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,]
+</code></pre>
+
+<p>Moreover, it can store the <code>range</code> object directly</p>
+
+<pre><code>print(toml.dumps({'a': 'test', 'b': range(20)}))
+a = &quot;test&quot;
+b = range(0, 20)
+</code></pre>
+
+<p>toml is clearly more readable than json (and it is designed to do so); however, we will go with json for now and continue working the development of toml.</p>
 
     </div>
 
