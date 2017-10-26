@@ -192,7 +192,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    4 min read
+    5 min read
   </span>
   
 
@@ -334,6 +334,23 @@ b = range(0, 20)
 </code></pre>
 
 <p>toml is clearly more readable than json (and it is designed to do so); however, we will go with json for now and continue working the development of toml.</p>
+
+<hr />
+
+<p>UPDATE 10-26-17</p>
+
+<p>I came into problem when trying to store the following structure with json:</p>
+
+<pre><code>dic = {('a', 1): [(1, 'I'),
+                  (2, 'II')],
+       ('b', 2): [(3, 'III'),
+                  (4, 'IV')],
+    ]}
+</code></pre>
+
+<p>The problem is that json does not distinguish between <code>list</code> and <code>tuple</code>. When trying to load the json file dumped using this dictionary, Python will complain about mutable dictionary key since json dump <code>('a', 1)</code> as <code>['a', 1]</code> which changes a immutable object to mutable in the process.</p>
+
+<p>I was initially trying to solve this problem; however, it did not take too long for me to realize that I am using json for the wrong task. Json is a text-based format to store mostly configuration files. If I want to store some strucutre data, a binary format will be better. In this case, I changed my json parser by <a href="https://docs.python.org/3/library/pickle.html" target="_blank">pickle</a>. This may lost the portabiliyt of the data, but I used this for temporary file that only my script/program uses. Thus, it is easier to use a native binary format to Python than any other portable format such as HDF5.</p>
 
     </div>
 
