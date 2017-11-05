@@ -277,7 +277,15 @@
 
 <h2 id="detection">Detection and location</h2>
 
-<p><a href="http://geophysics.eas.gatech.edu/people/zli/" target="_blank">Zefeng Li</a> proposed a cross-correlation based detector for small events (microseismic) on</p>
+<p><a href="http://geophysics.eas.gatech.edu/people/zli/" target="_blank">Zefeng Li</a> proposed a cross-correlation based detector for small events (microseismic) on dense surface array (Large-N array) named local similarity. However, the detection method on the direct stacking of local similarity traces is limited to densely populated array with small spatial coverage. To expand the application of such phase picking technique, we developed a random sampling based detection algorithm summarized in <a href="https://www.lijunzhu.info/publication/ratec-gp/" target="_blank">this paper</a>.</p>
+
+<p>The basic assumption of this method is that a valid earthquake event received on a surface array should have arrival time moveout close to a hyperbolic surface. As <a href="http://library.seg.org/doi/abs/10.1190/1.1438126?ct=f1c6ccb8027c529f684afe9022764f1d0c8f05f1b8f345cb0942046c3e8a74387290b2884f0da5afdc2ae7b9ec63ffab756bfd7fa23891ddd11d1dd9a6784c76" target="_blank">Dix equation</a> stated, such hyperbolic surface can be modeled by a parametric equation. Now, the event detection problem can be transformed into a curve (hyperbolic surface) fitting problem under severe outlier condition. Below shows an field data example we processed in Long Beach, CA. Such detection mehtod is capable of extracting the moveout surce (red mesh) from a observation pointed cloud serverely cateminated by outliers.</p>
+
+<p><img src="/img/headers/ransac_header.jpg" alt="ransac_lb" /></p>
+
+<p>However, many may argue that earth media is usually more complicated than modeld in Dix equation. Below, we gave an synthetic example showing the performance of the proposed detection method on Marmousi model with complex velocity model.</p>
+
+<p><img src="/img/project/marmousi_solution.pdf" alt="ransac_marmousi" /></p>
 
     </div>
 
