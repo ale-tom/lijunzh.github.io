@@ -58,11 +58,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://www.lijunzhu.info/post/toml-yaml-json/">
+  <link rel="canonical" href="https://www.lijunzhu.info/post/ml_earthquake/">
 
   
 
-  <title>Choosing among jason, yaml, and toml. | Lijun Zhu</title>
+  <title>Deep Learning for Seismic Processing | Lijun Zhu</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -177,29 +177,29 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">Choosing among jason, yaml, and toml.</h1>
+    <h1 itemprop="name">Deep Learning for Seismic Processing</h1>
     
 
 <div class="article-metadata">
 
   <span class="article-date">
     
-    <time datetime="2017-10-16 15:50:31 -0400 EDT" itemprop="datePublished">
-      Oct 16, 2017
+    <time datetime="2017-11-05 09:32:01 -0500 EST" itemprop="datePublished">
+      Nov 5, 2017
     </time>
   </span>
 
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    5 min read
+    1 min read
   </span>
   
 
   
   
   <span class="middot-divider"></span>
-  <a href="https://www.lijunzhu.info/post/toml-yaml-json/#disqus_thread"></a>
+  <a href="https://www.lijunzhu.info/post/ml_earthquake/#disqus_thread"></a>
   
 
   
@@ -213,35 +213,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Choosing%20among%20jason%2c%20yaml%2c%20and%20toml.&amp;url=https%3a%2f%2fwww.lijunzhu.info%2fpost%2ftoml-yaml-json%2f"
+         href="https://twitter.com/intent/tweet?text=Deep%20Learning%20for%20Seismic%20Processing&amp;url=https%3a%2f%2fwww.lijunzhu.info%2fpost%2fml_earthquake%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.lijunzhu.info%2fpost%2ftoml-yaml-json%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.lijunzhu.info%2fpost%2fml_earthquake%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.lijunzhu.info%2fpost%2ftoml-yaml-json%2f&amp;title=Choosing%20among%20jason%2c%20yaml%2c%20and%20toml."
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.lijunzhu.info%2fpost%2fml_earthquake%2f&amp;title=Deep%20Learning%20for%20Seismic%20Processing"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.lijunzhu.info%2fpost%2ftoml-yaml-json%2f&amp;title=Choosing%20among%20jason%2c%20yaml%2c%20and%20toml."
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.lijunzhu.info%2fpost%2fml_earthquake%2f&amp;title=Deep%20Learning%20for%20Seismic%20Processing"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Choosing%20among%20jason%2c%20yaml%2c%20and%20toml.&amp;body=https%3a%2f%2fwww.lijunzhu.info%2fpost%2ftoml-yaml-json%2f">
+         href="mailto:?subject=Deep%20Learning%20for%20Seismic%20Processing&amp;body=https%3a%2f%2fwww.lijunzhu.info%2fpost%2fml_earthquake%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -254,103 +254,28 @@
 </div>
 
     <div class="article-style" itemprop="articleBody">
-      <p>To continue the discussion in <a href="post/hdf5" target="_blank">previous post</a>, we want a folder strucutre standard instead of HDF5 to store dataset temporarily for processing or permantantly for sharing. To enable the flexibility of such folder structure apporach, we only impose minimum requirements on such folder and leave the rest fine-definition to the meta-data file. So what is the best format for such meta data?</p>
+      
 
-<p>Basically, we want a hash talbe that establishes relationship between keyword and values that are meaningful to the user/audience. We want to user/human to be able to read and understand such file while not being too hash for the processor/computer to parse them to machine language. The three options that I consider are json, yaml, and, the new commer, toml.</p>
+<h2 id="motivation">Motivation</h2>
 
-<p><a href="https://gohugohq.com/howto/toml-json-yaml-comparison/" target="_blank">This post</a> for hugo community did a good job in comparing these three formats and recommended toml for the config standard. Coincidentally, <a href="https://www.rust-lang.org/en-US/" target="_blank">Rust</a> community decided to use toml as [their choice for config file}(<a href="https://users.rust-lang.org/t/why-does-cargo-use-toml/3577" target="_blank">https://users.rust-lang.org/t/why-does-cargo-use-toml/3577</a>) (in Cargo) as well. Digging a little further to the standards of these formats, you will soon see that json being the more machine-friendly, toml being most human-friendly while yaml wanting to do both for which reason makes it the most complex standard among them. Since we only want this format to do very simple job as specify folder strucutre, simplicity is valued higher. Both json and toml is sufficient for the job. However, human-updating of json files is less enjoyable than that of toml. More importantly, the deal-breaker is the ability to comment in toml. Json is fast for machine, but we want to use to read and understand the folder strucutre directly by reading (cat) the meta file. Yaml can do both, yet, it is a over-kill for such simple job. The downside of toml is the fact that it is still young and keep changing every day. Yet, we have no intension to make a widely used and backward-compatible standard. Thus, flexibility wins over stability.</p>
+<p>With the recent enormous success of deep learning in speech, image, and natural language processing, people start to <a href="https://www.technologyreview.com/s/513696/deep-learning/#comments" target="_blank">dream about an intelligent brain</a> with the assist of a massive amount of computation power on large datasets.
+Nvidia, the hardware company behind all the rapid development of deep learning, put together an <a href="https://www.nvidia.com/en-us/deep-learning-ai/customer-stories/" target="_blank">ad page</a> demonstrate the <a href="https://insidebigdata.com/2017/03/15/deep-learning-ai-success-stories/" target="_blank">successful stories of AI</a>.
+More and more researchers/companies start to realize the value and deep learning and begin to explore its <a href="https://machinelearningmastery.com/inspirational-applications-deep-learning/" target="_blank">inspirational applications</a>.
+However, the effect of applying deep learning related algorithms in seismic processing is somewhat scarce at this point.</p>
 
-<p>I will contiue discuss how the format will look like in the future post.</p>
+<p>In this post, I&rsquo;d like to entertain the possible applications of deep learning in seismic processing with some introduction to exisiting trials.
+The basic seismic processing can be careless divided into roughly two areas:</p>
 
-<hr />
+<ul>
+<li><a href="#detection">Detection</a></li>
+<li><a href="#imaging">Imaging</a></li>
+</ul>
 
-<p>UPDATE 10-22-17</p>
+<p>In detection, we try to find and locate earthquake (seismic events) from the received signals on a seismic receiver sensor(s).</p>
 
-<p>After actual both json and toml in python, I realized too things:</p>
+<h2 id="detection">Detection</h2>
 
-<ol>
-<li><p>toml requires installzation of an additional package, e.g. <a href="https://pypi.python.org/pypi/toml" target="_blank">toml</a> while json package in built-in with python distribution.</p></li>
-
-<li><p>Python&rsquo;s json parser has a paramter called <code>indent</code> usig which makes json file much more readable.</p></li>
-</ol>
-
-<p>Although I still think toml is the better choice between these two format. The ability to include an object instead of python standard types is attractive, the standard stable package of json is very tampting for portable code. Since both library share similar syntax, I will go with json for now and wait until the toml standard stablize.</p>
-
-<p>More importantly, json is not that terrible in terms of readability. The indent parameter give the formating according to human eyes as follows:</p>
-
-<pre><code>If indent is a non-negative integer or string, then JSON array elements and object members will be pretty-printed with that indent level. An indent level of 0, negative, or &quot;&quot; will only insert newlines. None (the default) selects the most compact representation. Using a positive integer indent indents that many spaces per level. If indent is a string (such as &quot;\t&quot;), that string is used to indent each level.
-</code></pre>
-
-<p>Here is an example:</p>
-
-<pre><code> print(json.dumps({'a': 'test', 'b': [str(c) for c in list(range(20))]}))
-{&quot;a&quot;: &quot;test&quot;, &quot;b&quot;: [&quot;0&quot;, &quot;1&quot;, &quot;2&quot;, &quot;3&quot;, &quot;4&quot;, &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot;, &quot;9&quot;, &quot;10&quot;, &quot;11&quot;, &quot;12&quot;, &quot;13&quot;, &quot;14&quot;, &quot;15&quot;, &quot;16&quot;, &quot;17&quot;, &quot;18&quot;, &quot;19&quot;]}
-</code></pre>
-
-<p>becomes</p>
-
-<pre><code>print(json.dumps({'a': 'test', 'b': [str(c) for c in list(range(20))]}, indent = 4))
-{
-    &quot;a&quot;: &quot;test&quot;,
-    &quot;b&quot;: [
-        &quot;0&quot;,
-        &quot;1&quot;,
-        &quot;2&quot;,
-        &quot;3&quot;,
-        &quot;4&quot;,
-        &quot;5&quot;,
-        &quot;6&quot;,
-        &quot;7&quot;,
-        &quot;8&quot;,
-        &quot;9&quot;,
-        &quot;10&quot;,
-        &quot;11&quot;,
-        &quot;12&quot;,
-        &quot;13&quot;,
-        &quot;14&quot;,
-        &quot;15&quot;,
-        &quot;16&quot;,
-        &quot;17&quot;,
-        &quot;18&quot;,
-        &quot;19&quot;
-    ]
-}
-</code></pre>
-
-<p>The one without indent gives very compact output; however, if file size concerns you, other binary format may be better suited. Moreoever, an easy gzip will compress such text based file easily without lossing portability. This is the primary reason I did not choose a customized binary format in the first place.</p>
-
-<p>As an comparison, toml file of the above dictionary looks like following:</p>
-
-<pre><code>print(toml.dumps({'a': 'test', 'b': list(range(20))}))
-a = &quot;test&quot;
-b = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,]
-</code></pre>
-
-<p>Moreover, it can store the <code>range</code> object directly</p>
-
-<pre><code>print(toml.dumps({'a': 'test', 'b': range(20)}))
-a = &quot;test&quot;
-b = range(0, 20)
-</code></pre>
-
-<p>toml is clearly more readable than json (and it is designed to do so); however, we will go with json for now and continue working the development of toml.</p>
-
-<hr />
-
-<p>UPDATE 10-26-17</p>
-
-<p>I came into problem when trying to store the following structure with json:</p>
-
-<pre><code>dic = {('a', 1): [(1, 'I'),
-                  (2, 'II')],
-       ('b', 2): [(3, 'III'),
-                  (4, 'IV')],
-    ]}
-</code></pre>
-
-<p>The problem is that json does not distinguish between <code>list</code> and <code>tuple</code>. When trying to load the json file dumped using this dictionary, Python will complain about mutable dictionary key since json dump <code>('a', 1)</code> as <code>['a', 1]</code> which changes a immutable object to mutable in the process.</p>
-
-<p>I was initially trying to solve this problem; however, it did not take too long for me to realize that I am using json for the wrong task. Json is a text-based format to store mostly configuration files. If I want to store some strucutre data, a binary format will be better. In this case, I changed my json parser by <a href="https://docs.python.org/3/library/pickle.html" target="_blank">pickle</a>. This may lost the portabiliyt of the data, but I used this for temporary file that only my script/program uses. Thus, it is easier to use a native binary format to Python than any other portable format such as HDF5.</p>
+<h2 id="imaging">Imaging</h2>
 
     </div>
 
@@ -358,10 +283,6 @@ b = range(0, 20)
     
     
     <div class="article-tags">
-      
-      <a class="btn btn-primary btn-outline" href="/tags/file">file</a>
-      
-      <a class="btn btn-primary btn-outline" href="/tags/format">format</a>
       
       <a class="btn btn-primary btn-outline" href="/tags/ml">ML</a>
       
@@ -379,6 +300,8 @@ b = range(0, 20)
   <div class="hr-light"></div>
   <h3>Related</h3>
   <ul>
+    
+    <li><a href="/post/toml-yaml-json/">Choosing among jason, yaml, and toml.</a></li>
     
     <li><a href="/post/hdf5/">Why I moved away from HDF5?</a></li>
     

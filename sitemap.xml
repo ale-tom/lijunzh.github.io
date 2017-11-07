@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>https://www.lijunzhu.info/post/ml_earthquake/</loc>
+      <lastmod>2017-11-05T09:32:01-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://www.lijunzhu.info/post/toml-yaml-json/</loc>
       <lastmod>2017-10-16T15:50:31-04:00</lastmod>
     </url>
@@ -297,6 +306,26 @@
     
     <url>
     
+      <loc>https://www.lijunzhu.info/tags/file/</loc>
+      <lastmod>2017-10-16T15:50:31-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://www.lijunzhu.info/tags/format/</loc>
+      <lastmod>2017-10-16T15:50:31-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://www.lijunzhu.info/tags/hugo/</loc>
       <lastmod>2017-03-27T11:14:35-04:00</lastmod>
       <priority>0</priority>
@@ -319,6 +348,16 @@
     
       <loc>https://www.lijunzhu.info/</loc>
       <lastmod>2017-03-24T07:29:14-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://www.lijunzhu.info/tags/ml/</loc>
+      <lastmod>2017-11-05T09:32:01-05:00</lastmod>
       <priority>0</priority>
     </url>
     

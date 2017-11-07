@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -58,11 +60,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://www.lijunzhu.info/post/hdf5/">
+  <link rel="canonical" href="https://www.lijunzhu.info/tags/format/">
 
   
 
-  <title>Why I moved away from HDF5? | Lijun Zhu</title>
+  <title>Format | Lijun Zhu</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -171,154 +173,41 @@
 </nav>
 
 
-<article class="article" itemscope itemtype="http://schema.org/Article">
-
-  
-<div class="article-header">
-  <img src="/img/post/hdf5_structure.jpg" class="article-banner" itemprop="image">
-  <span class="article-header-caption">Image credit to <a href="http://neondataskills.org/" target="_blank">http://neondataskills.org/</a></span>
-</div>
 
 
 
-  <div class="article-container">
-    <h1 itemprop="name">Why I moved away from HDF5?</h1>
-    
+<div class="universal-wrapper">
 
-<div class="article-metadata">
+  <h1>Format</h1>
 
-  <span class="article-date">
-    
-    <time datetime="2017-10-16 12:12:59 -0400 EDT" itemprop="datePublished">
-      Oct 16, 2017
-    </time>
-  </span>
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    2 min read
-  </span>
   
 
   
   
-  <span class="middot-divider"></span>
-  <a href="https://www.lijunzhu.info/post/hdf5/#disqus_thread"></a>
-  
-
-  
-  
-  
-  
-
-  
-  
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Why%20I%20moved%20away%20from%20HDF5%3f&amp;url=https%3a%2f%2fwww.lijunzhu.info%2fpost%2fhdf5%2f"
-         target="_blank" rel="noopener">
-        <i class="fa fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.lijunzhu.info%2fpost%2fhdf5%2f"
-         target="_blank" rel="noopener">
-        <i class="fa fa-facebook"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.lijunzhu.info%2fpost%2fhdf5%2f&amp;title=Why%20I%20moved%20away%20from%20HDF5%3f"
-         target="_blank" rel="noopener">
-        <i class="fa fa-linkedin"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.lijunzhu.info%2fpost%2fhdf5%2f&amp;title=Why%20I%20moved%20away%20from%20HDF5%3f"
-         target="_blank" rel="noopener">
-        <i class="fa fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=Why%20I%20moved%20away%20from%20HDF5%3f&amp;body=https%3a%2f%2fwww.lijunzhu.info%2fpost%2fhdf5%2f">
-        <i class="fa fa-envelope"></i>
-      </a>
-    </li>
-  </ul>
-</div>
-
-
-  
-
-</div>
-
-    <div class="article-style" itemprop="articleBody">
-      <p>Recently, the increasing volume of data and application of neural networks have both forced to look at data format again. Previously, I thought the HDF5 format is the best for most of my application. The nice APIs to HDF5, e.g. <a href="www.h5py.org/" target="_blank">H5py</a> and <a href="https://github.com/uchicago-cs/deepdish/releases" target="_blank">DeepDish</a> gives me both flexibility and easiness of using HDF5 to store and share my dataset. However, as my datasets start to grow substantially, loading them into the memory puts a significant burden on my I/O bus, especially I only need part of that dataset every time. Moreoever, the parallel processing the dataset by calling the same program multiples times with different parameters which may used different part of the dataset. Looking the entire dataset to the memory seems to be a waste of resource. This makes me to search for the alternative of HDF5 approach.</p>
-
-<p>Dr. Cyrille Rossant&rsquo;s <a href="http://cyrille.rossant.net/moving-away-hdf5/" target="_blank">recent post</a> (and its <a href="http://cyrille.rossant.net/should-you-use-hdf5/" target="_blank">follow-up</a>) shares some similar problems as I encountered. The approaches he took is very interesting. As shown in the image above, HDF5 is close to have a mini-file-system inside the data format. This can be handled more efficiently by the file system. More importantly, the meta data written in plain text helps users to understand the structure and basics of the given dataset directly using OS without special tools. The <a href="https://stackoverflow.com/questions/22125778/how-is-hdf5-different-from-a-folder-with-files" target="_blank">question</a> on stack overflow seems to resonate my point as well. If data sharing is needed, a simple tar/zip will easily package the entire folder into a single file.</p>
-
-<p>However, the file format choice of the meta data is uncertain. The available options are json, yaml, and toml. I will continue the discussion in next post.</p>
-
-    </div>
-
-    
-    
-    
-    <div class="article-tags">
+  <div>
+    <h2><a href="https://www.lijunzhu.info/post/toml-yaml-json/">Choosing among jason, yaml, and toml.</a></h2>
+    <div class="article-style">
       
-      <a class="btn btn-primary btn-outline" href="/tags/file">file</a>
-      
-      <a class="btn btn-primary btn-outline" href="/tags/format">format</a>
-      
-      <a class="btn btn-primary btn-outline" href="/tags/ml">ML</a>
+      To continue the discussion in previous post, we want a folder strucutre standard instead of HDF5 to store dataset temporarily for processing or permantantly for sharing. To enable the flexibility of such folder structure apporach, we only impose minimum requirements on such folder and leave the rest fine-definition to the meta-data file. So what is the best format for such meta data?
+Basically, we want a hash talbe that establishes relationship between keyword and values that are meaningful to the user/audience.
       
     </div>
-    
-    
-
   </div>
-
-</article>
-
-
-
-
-
-
-<div class="article-container">
   
-<section id="comments">
-  <div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "lijunzhu-info" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</section>
+  <div>
+    <h2><a href="https://www.lijunzhu.info/post/hdf5/">Why I moved away from HDF5?</a></h2>
+    <div class="article-style">
+      
+      Recently, the increasing volume of data and application of neural networks have both forced to look at data format again. Previously, I thought the HDF5 format is the best for most of my application. The nice APIs to HDF5, e.g. H5py and DeepDish gives me both flexibility and easiness of using HDF5 to store and share my dataset. However, as my datasets start to grow substantially, loading them into the memory puts a significant burden on my I/O bus, especially I only need part of that dataset every time.
+      
+    </div>
+  </div>
+  
+
+  
 
 
 </div>
-
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">
@@ -405,4 +294,6 @@
 
   </body>
 </html>
+
+
 
