@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>https://www.lijunzhu.info/project/denoise/</loc>
+      <lastmod>2017-12-01T11:01:21-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://www.lijunzhu.info/project/field-work/</loc>
+      <lastmod>2017-11-18T14:46:10-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://www.lijunzhu.info/post/ml_earthquake/</loc>
       <lastmod>2017-11-05T09:32:01-05:00</lastmod>
     </url>
@@ -296,8 +314,28 @@
     
     <url>
     
+      <loc>https://www.lijunzhu.info/tags/denoise/</loc>
+      <lastmod>2017-12-01T11:01:21-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://www.lijunzhu.info/tags/detection/</loc>
       <lastmod>2017-03-24T16:17:13-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://www.lijunzhu.info/tags/field-trip/</loc>
+      <lastmod>2017-11-18T14:46:10-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -376,8 +414,18 @@
     
     <url>
     
-      <loc>https://www.lijunzhu.info/project/</loc>
+      <loc>https://www.lijunzhu.info/tags/machine-learning/</loc>
       <lastmod>2017-03-24T16:17:13-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://www.lijunzhu.info/project/</loc>
+      <lastmod>2017-12-01T11:01:21-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -397,7 +445,7 @@
     <url>
     
       <loc>https://www.lijunzhu.info/tags/seismic/</loc>
-      <lastmod>2017-03-24T16:17:13-04:00</lastmod>
+      <lastmod>2017-12-01T11:01:21-05:00</lastmod>
       <priority>0</priority>
     </url>
     
